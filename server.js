@@ -6,6 +6,7 @@ const mysql = require('mysql2/promise');
 const { entities, migrate, reclassifica, TIPOS_DIVIDA } = require('./schema');
 const auth = require('./auth');
 const seed = require('./seed');
+const cargas = require('./cargas');
 
 const PORT = process.env.PORT || 3000;
 
@@ -192,6 +193,9 @@ app.get('/api/painel', wrap(async (req, res) => {
     d.total += num(r.v); d.parcelas += num(r.parcela); d.itens += num(r.n); d.sem_valor += num(r.sem_valor); d.a_verificar += num(r.a_verificar);
     d.tipos.push({ tipo: r.categoria, valor: num(r.v), itens: num(r.n), sem_valor: num(r.sem_valor) });
   }
+  const [reps] = await pool.query(`SELECT COALESCE(NULLIF(representante,''), 'Sem representante') r, SUM(COALESCE(valor_atual, valor_original, 0)) v, COUNT(*) n
+    FROM passivos WHERE grandeza='Fornecedores' AND COALESCE(situacao,'') NOT IN ('Pago','Substituído') GROUP BY r ORDER BY v DESC`);
+  dividas.Fornecedores.representantes = reps.map(r => ({ nome: r.r, valor: num(r.v), itens: num(r.n) }));
   const [maiores] = await pool.query(`SELECT id, grandeza, categoria, credor, descricao, COALESCE(valor_atual, valor_original) valor, situacao FROM passivos
     WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído') AND COALESCE(valor_atual, valor_original) > 0 ORDER BY valor DESC LIMIT 8`);
   const [planosAlta] = await pool.query("SELECT id, titulo, area, status, prazo, responsavel FROM planos_acao WHERE prioridade='Alta' AND status <> 'Concluído' ORDER BY FIELD(status,'Em andamento','Bloqueado','A fazer'), prazo IS NULL, prazo LIMIT 8");
@@ -358,6 +362,7 @@ app.use((err, req, res, next) => {
     await migrate(pool);
     await seed.run(pool);
     await reclassifica(pool);
+    await cargas.run(pool);
     console.log('Banco pronto');
   } catch (e) { console.error('Falha ao preparar o banco:', e); }
   app.listen(PORT, () => console.log('Portal Vou Comprar na porta ' + PORT));

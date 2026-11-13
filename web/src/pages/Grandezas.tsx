@@ -72,7 +72,10 @@ export function Divida({ chave }: { chave: string }) {
         <Col xs={24} md={8}><Kpi rot="Parcelas / mês" val={brl(x.parcelas)} det="Dívidas já parceladas" /></Col>
         <Col xs={24} md={8}><Kpi rot="A verificar" val={x.a_verificar} det={x.sem_valor ? `${x.sem_valor} ainda sem valor` : 'Todos com valor'} /></Col>
       </Row>
-      {x.tipos.length > 0 && <Card title="Por tipo" style={{ marginTop: 16 }}>
+      {x.representantes?.length > 0 && <Card title="Por representante" style={{ marginTop: 16 }}>
+        <Barras cor={g.cor} itens={x.representantes.map((r: any) => ({ rot: r.nome, valor: r.valor, extra: <span className="dica"> · {r.itens} {r.itens === 1 ? 'empresa' : 'empresas'}</span> }))} />
+      </Card>}
+      {!x.representantes?.length && x.tipos.length > 0 && <Card title="Por tipo" style={{ marginTop: 16 }}>
         <Barras cor={g.cor} itens={x.tipos.map((t: any) => ({ rot: t.tipo, valor: t.valor, extra: <span className="dica"> · {t.itens} {t.itens === 1 ? 'item' : 'itens'}{t.sem_valor ? `, ${t.sem_valor} sem valor` : ''}</span> }))} />
       </Card>}
       <Tabs style={{ marginTop: 16 }} activeKey={aba} onChange={setAba} items={[

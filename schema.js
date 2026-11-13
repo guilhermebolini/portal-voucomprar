@@ -151,6 +151,7 @@ const entities = {
     fields: [
       { name: 'nome', label: 'Nome', type: 'text', list: true, required: true },
       { name: 'tipo', label: 'Tipo', type: 'select', options: ['Representante', 'Fábrica', 'Distribuidor', 'Prestador de serviço', 'A classificar'], list: true },
+      { name: 'representante', label: 'Representante', type: 'text', list: true },
       { name: 'marcas', label: 'Marcas / fábricas', type: 'text', list: true },
       { name: 'cnpj', label: 'CNPJ', type: 'text' },
       { name: 'contato', label: 'Contato', type: 'text', list: true },
@@ -166,6 +167,7 @@ const entities = {
       { name: 'grandeza', label: 'Grandeza', type: 'select', options: GRANDEZAS_DIVIDA, list: true, required: true, help: 'Pessoas, Fornecedores, Imóvel ou Governo. Aluguel do mês não entra aqui: é custo operacional (Despesas).' },
       { name: 'categoria', label: 'Tipo', type: 'select', options: Object.values(TIPOS_DIVIDA).flat(), dependeDe: 'grandeza', opcoesPor: TIPOS_DIVIDA, list: true, required: true },
       { name: 'credor', label: 'Credor', type: 'text', list: true },
+      { name: 'representante', label: 'Representante', type: 'text', list: true, help: 'Para dívidas com fornecedor: quem representa a empresa.' },
       { name: 'fornecedor_id', label: 'Fornecedor (se houver)', type: 'ref', ref: 'fornecedores' },
       { name: 'unidade_id', label: 'Loja (se houver)', type: 'ref', ref: 'unidades' },
       { name: 'descricao', label: 'Descrição', type: 'text', list: true },
