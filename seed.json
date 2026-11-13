@@ -1,0 +1,6547 @@
+{
+ "unidades": [
+  {
+   "codigo": "T3",
+   "nome": "Saens Peña (S. Pena)",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Tijuca",
+   "gerente": "Paulo / Lori (sub)",
+   "headcount_informado": 10,
+   "area_m2": 300,
+   "observacoes": "Matriz. LOJA PRÓPRIA (sem aluguel; IPTU R$ 2.500/mês). Estoque/depósito e gastos de site, DP, ADM e logística estão aqui. Nome no cadastro 2020: TIJUCA 3. CNPJ atual 66.792.322/0004-71 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0013-22.",
+   "cnpj": "66.792.322/0004-71",
+   "inscricao_estadual": "1640800-0",
+   "endereco": "Praça Saens Peña, 15, Loja – Tijuca – RJ – 20520-090",
+   "telefone": "21 3217-6289",
+   "email": "tijuca3.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0013-22",
+   "ie_anterior": "11.674.305",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "T2",
+   "nome": "Desembargador Isidro (D. Isidro)",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Tijuca",
+   "gerente": "Willian",
+   "headcount_informado": 5,
+   "area_m2": null,
+   "observacoes": "Código T2 no sistema. Na planilha VENDA aparece como 'TIJUCA'. Nome no cadastro 2020: TIJUCA 2. CNPJ atual 66.792.322/0005-52 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0008-65.",
+   "cnpj": "66.792.322/0005-52",
+   "inscricao_estadual": "1640784-4",
+   "endereco": "Rua Desembargador Isidro, 06, Loja A – Tijuca – RJ – 20521-160",
+   "telefone": "21 2147-3589",
+   "email": "tijuca2.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0008-65",
+   "ie_anterior": "11.674.232",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "CACUIA",
+   "nome": "Cacuia",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Ilha do Governador",
+   "gerente": "Sebastião / Maria",
+   "headcount_informado": 5,
+   "area_m2": null,
+   "observacoes": "Código trocado no sistema em 02/09/2026 (BPO somou os dois). Nome no cadastro 2020: CACUIA. CNPJ atual 66.792.322/0006-33 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0010-80.",
+   "cnpj": "66.792.322/0006-33",
+   "inscricao_estadual": "1640785-2",
+   "endereco": "Estrada do Cacuia, 231, Loja A – Ilha do Governador – RJ – 21921-001",
+   "telefone": "21 3734-7011",
+   "email": "cacuia.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0010-80",
+   "ie_anterior": "11.674.275",
+   "inscricao_municipal": "1644730-7"
+  },
+  {
+   "codigo": "GALEAO",
+   "nome": "Galeão",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Ilha do Governador",
+   "gerente": "Rose",
+   "headcount_informado": 6,
+   "area_m2": null,
+   "observacoes": "Nome no cadastro 2020: GALEÃO. CNPJ atual 66.792.322/0003-90 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0011-60.",
+   "cnpj": "66.792.322/0003-90",
+   "inscricao_estadual": "1640789-5",
+   "endereco": "Estrada do Galeão, 2500, Bloco B, Loja B – Ilha do Governador – RJ – 21931-582",
+   "telefone": "21 3281-3745",
+   "email": "galeao.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0011-60",
+   "ie_anterior": "11.674.291",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "CATETE",
+   "nome": "Catete",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Catete",
+   "gerente": "Viviane",
+   "headcount_informado": 4,
+   "area_m2": null,
+   "observacoes": "Nome no cadastro 2020: CATETE. CNPJ atual 66.792.322/0002-00 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0001-99.",
+   "cnpj": "66.792.322/0002-00",
+   "inscricao_estadual": "1640820-4",
+   "endereco": "Rua do Catete, 116, Loja A – Catete – RJ – 22220-000",
+   "telefone": "3311-5022",
+   "email": "catete.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0001-99",
+   "ie_anterior": "78.119.896",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "COPA",
+   "nome": "Copacabana",
+   "tipo": "Loja",
+   "situacao": "Em operação",
+   "bairro": "Copacabana",
+   "gerente": "",
+   "headcount_informado": 3,
+   "area_m2": 100,
+   "observacoes": "Pior loja (~R$ 1.700/dia). Obs. do rascunho: 'CRIA'. Nome no cadastro 2020: COPA. CNPJ atual 66.792.322/0001-29 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0002-70.",
+   "cnpj": "66.792.322/0001-29",
+   "inscricao_estadual": "1640780-1",
+   "endereco": "Av. N. Sra. de Copacabana, 360, Loja D – Copacabana – RJ – 22020-001",
+   "telefone": "21 3796-1590",
+   "email": "copa.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0002-70",
+   "ie_anterior": "78.633.212",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "R3",
+   "nome": "Recreio 3",
+   "tipo": "Loja",
+   "situacao": "A confirmar",
+   "bairro": "Recreio",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Aparece como em operação no material da BPO e nas despesas, mas não está na Planilha Principal (6 lojas). Confirmar. Também não aparece na planilha FINANCEIRO de out/26. Nome no cadastro 2020: RECREIO 3. Não está na lista REDE LOJAS ATUALIZADA (empresa nova).",
+   "cnpj": "08.064.809/0005-12",
+   "inscricao_estadual": "11.674.216",
+   "endereco": "Av. das Américas, 13331, Loja H – Barra da Tijuca – RJ – 22790-701",
+   "telefone": "3546-3348",
+   "email": "recreio3.voucomprar@gmail.com",
+   "razao_social": "Aisma Comércio de Utilidades para o Lar LTDA ME"
+  },
+  {
+   "codigo": "GROCA",
+   "nome": "General Roca (G. Roça / Tijuca 1)",
+   "tipo": "Loja",
+   "situacao": "Encerrada",
+   "bairro": "Tijuca",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Encerrada em mar/2026 (BPO). Nome no cadastro 2020: TIJUCA 1.",
+   "cnpj": "08.064.809/0012-41",
+   "inscricao_estadual": "11.674.259",
+   "endereco": "Rua General Roca, 815, Loja A – Tijuca – RJ – 20521-070",
+   "telefone": "21 3546-2187 / 3040-3960",
+   "email": "tijuca1.voucomprar@gmail.com",
+   "razao_social": "Aisma Comércio de Utilidades para o Lar LTDA ME"
+  },
+  {
+   "codigo": "CBONFIM",
+   "nome": "Conde de Bonfim (C. Bonfim / Tijuca 4)",
+   "tipo": "Loja",
+   "situacao": "Encerrada",
+   "bairro": "Tijuca",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Encerrada em jul/2026 (BPO). Nome no cadastro 2020: TIJUCA 4. CNPJ atual 66.792.322/0007-14 (Vou Comprar Utilidades para o Lar LTDA); CNPJ AISMA anterior 08.064.809/0007-84. Ainda tem CNPJ ativo na empresa nova (filial 0007).",
+   "cnpj": "66.792.322/0007-14",
+   "inscricao_estadual": "1640790-9",
+   "endereco": "Rua Conde de Bonfim, 258 – Tijuca – RJ – 20520-054",
+   "telefone": "21 3594-4586",
+   "email": "tijuca4.voucomprar@gmail.com",
+   "razao_social": "VOU COMPRAR UTILIDADES PARA O LAR LTDA",
+   "cnpj_anterior": "08.064.809/0007-84",
+   "ie_anterior": "11.674.224",
+   "inscricao_municipal": null
+  },
+  {
+   "codigo": "ECOM",
+   "nome": "E-commerce",
+   "tipo": "Centro de custo",
+   "situacao": "Em operação",
+   "bairro": "",
+   "gerente": "",
+   "headcount_informado": 5,
+   "area_m2": null,
+   "observacoes": "Sem venda no iShop (BPO)."
+  },
+  {
+   "codigo": "DEP",
+   "nome": "Logística / Depósito",
+   "tipo": "Centro de custo",
+   "situacao": "Em operação",
+   "bairro": "Tijuca",
+   "gerente": "Ciro",
+   "headcount_informado": 4,
+   "area_m2": null,
+   "observacoes": "Nome no cadastro 2020: DEPÓSITO.",
+   "cnpj": "08.064.809/0009-46",
+   "inscricao_estadual": "11.674.283",
+   "endereco": "Rua Emílio Zaluar, 92 – Ramos – RJ – 21032-030 (endereço de 2020)",
+   "telefone": "21 2148-9489 / 98868-8967",
+   "email": "deposito.voucomprar@gmail.com",
+   "razao_social": "Aisma Comércio de Utilidades para o Lar LTDA ME"
+  },
+  {
+   "codigo": "ADM",
+   "nome": "Administrativo",
+   "tipo": "Centro de custo",
+   "situacao": "Em operação",
+   "bairro": "",
+   "gerente": "",
+   "headcount_informado": 4,
+   "area_m2": null,
+   "observacoes": "Tainá (RH e treinamento), Mariana (ADM/DP), Aline (CFTV remoto, Taquara), Juliana (assistente de compras)."
+  },
+  {
+   "codigo": "SUP",
+   "nome": "Supervisão",
+   "tipo": "Centro de custo",
+   "situacao": "Em operação",
+   "bairro": "",
+   "gerente": "Mara / Socorro",
+   "headcount_informado": 2,
+   "area_m2": null,
+   "observacoes": "Acompanha lojas e backup."
+  },
+  {
+   "codigo": "DP",
+   "nome": "Departamento pessoal",
+   "tipo": "Centro de custo",
+   "situacao": "Em operação",
+   "bairro": "Tijuca",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Coluna DP na planilha FINANCEIRO."
+  },
+  {
+   "codigo": "R1",
+   "nome": "Recreio 1",
+   "tipo": "Loja",
+   "situacao": "Encerrada",
+   "bairro": "Recreio",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Consta no cadastro de 2020; não aparece nas vendas desde 2020 (BPO). Confirmar. Nome no cadastro 2020: RECREIO 1.",
+   "cnpj": "08.064.809/0003-50",
+   "inscricao_estadual": "11.674.003",
+   "endereco": "Av. das Américas, 14591, Loja E – Recreio – RJ – 22790-703",
+   "telefone": "21 3796-7082",
+   "email": "recreio1.voucomprar@gmail.com",
+   "razao_social": "Aisma Comércio de Utilidades para o Lar LTDA ME"
+  },
+  {
+   "codigo": "R2",
+   "nome": "Recreio 2",
+   "tipo": "Loja",
+   "situacao": "Encerrada",
+   "bairro": "Recreio",
+   "gerente": "",
+   "headcount_informado": null,
+   "area_m2": null,
+   "observacoes": "Consta no cadastro de 2020; não aparece nas vendas desde 2020 (BPO). Confirmar. Nome no cadastro 2020: RECREIO 2.",
+   "cnpj": "08.064.809/0006-01",
+   "inscricao_estadual": "11.674.267",
+   "endereco": "Estr. Benvindo de Novaes, 1900, Loja A – Recreio – RJ – 22790-382",
+   "telefone": "21 3393-0121",
+   "email": "recreio2.voucomprar@gmail.com",
+   "razao_social": "Aisma Comércio de Utilidades para o Lar LTDA ME"
+  }
+ ],
+ "despesas": [
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 733.33,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1280,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1350,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 900,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Marketing",
+   "linha": "Radio",
+   "valor_mensal": 35.08,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei",
+   "valor_mensal": 117.69,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "Fidelize (só recreios)",
+   "valor_mensal": 459,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 385.7,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 465.6,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 545.5,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 385.7,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 266.8,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 266.8,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 504.6,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "LINX",
+   "valor_mensal": 181.82,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Bobinas, Etiquetas e Ribon",
+   "valor_mensal": 400,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Embalagem e limpeza",
+   "linha": "A4 para impressoras e compra de Toner",
+   "valor_mensal": 126,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Fitas para embalar caixas",
+   "valor_mensal": 41.94,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Sacolas uso nas lojas",
+   "valor_mensal": 500,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 24957.84,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 27699.68,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 12896.5,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 19623.71,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 14307.28,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 26348.27,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 823.1,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 514.14,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1280.55,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 763.27,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1511.86,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 545.99,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1007.46,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 538.39,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1152.78,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 529.97,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1533.52,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "R3",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 546.97,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1056.91,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 481.62,
+   "versao": "Evidência BPO",
+   "competencia": "2026-08",
+   "recorrente": 1,
+   "observacoes": "DESPESAS.xlsx (BPO Planejei)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 28000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 25000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 900,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 13000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 800,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 27000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 500,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 18000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 600,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1100,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 200,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba IMÓVEIS"
+  },
+  {
+   "unidade": "ADM",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto (EzPoint)",
+   "valor_mensal": 147.5,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "PLANILHA PRINCIPAL.xlsx, aba OPERACIONAL"
+  },
+  {
+   "unidade": "ADM",
+   "grupo": "Sistemas e TI",
+   "linha": "Sistema Alterdata (total informado)",
+   "valor_mensal": 6000,
+   "versao": "Informado Guilherme",
+   "competencia": null,
+   "recorrente": 1,
+   "observacoes": "RASCUNHO DE INFOS: 'SISTEMA ALTERDATA 6000'. BPO mostra R$ 466,92/loja (R$ 3.268/mês nas 7). Confirmar."
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 22086.84,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 19262.24,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 9164.6,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "LOJA PRÓPRIA (matriz). FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 27699.68,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Ocupação",
+   "linha": "Aluguel",
+   "valor_mensal": 14307.28,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Ocupação",
+   "linha": "IPTU",
+   "valor_mensal": 239.25,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Ocupação",
+   "linha": "IPTU",
+   "valor_mensal": 258.65,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Ocupação",
+   "linha": "IPTU",
+   "valor_mensal": 310.99,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Ocupação",
+   "linha": "IPTU",
+   "valor_mensal": 2500,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Ocupação",
+   "linha": "Taxa de incêndio",
+   "valor_mensal": 982.23,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 823.1,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1007.46,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 763.27,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 514.14,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 1280.55,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Energia",
+   "valor_mensal": 545.99,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 538.39,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 481.62,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1533.52,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1152.78,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 529.97,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Utilidades",
+   "linha": "Água",
+   "valor_mensal": 1056.91,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 500.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Internet",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Embalagem e limpeza",
+   "linha": "Embalagem e limpeza",
+   "valor_mensal": 1067.94,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "TI",
+   "valor_mensal": 250.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "Dedetização",
+   "valor_mensal": 122.22,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 900.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1280.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Ar condicionado",
+   "valor_mensal": 1350.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Manutenção",
+   "linha": "Seguro lojas",
+   "valor_mensal": 157.79,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 15.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 15.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 15.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 75.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 15.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Ponto eletrônico",
+   "valor_mensal": 15.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Alterdata",
+   "valor_mensal": 466.92,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Monday",
+   "valor_mensal": 300.0,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Arquivei (Qive)",
+   "valor_mensal": 117.69,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 385.7,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 504.6,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 181.82,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 465.6,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 545.5,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Sistemas e TI",
+   "linha": "Aluguel GETNET (POS e TEF)",
+   "valor_mensal": 266.8,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "grupo": "Marketing",
+   "linha": "Rádio",
+   "valor_mensal": 35.08,
+   "versao": "Financeiro out/26",
+   "competencia": "2026-10",
+   "recorrente": 1,
+   "observacoes": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  }
+ ],
+ "imoveis": [
+  {
+   "unidade": "T3",
+   "locador": "",
+   "valor_aluguel": 0,
+   "valor_evidencia_bpo": null,
+   "situacao": "Em dia",
+   "observacoes": "LOJA PRÓPRIA (matriz), segundo a planilha FINANCEIRO out/26. IPTU R$ 2.500/mês. Rascunho pedia verificar aluguel Rio de Ouro.",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)",
+   "iptu_mensal": 2500
+  },
+  {
+   "unidade": "T2",
+   "locador": "",
+   "valor_aluguel": 25000,
+   "valor_evidencia_bpo": 24957.84,
+   "situacao": "A verificar",
+   "observacoes": "Aluguel em out/26 (planilha FINANCEIRO): R$ 22.086,84",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  },
+  {
+   "unidade": "CACUIA",
+   "locador": "",
+   "valor_aluguel": 28000,
+   "valor_evidencia_bpo": 27699.68,
+   "situacao": "A verificar",
+   "observacoes": "Aluguel em out/26 (planilha FINANCEIRO): R$ 27.699,68",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  },
+  {
+   "unidade": "GALEAO",
+   "locador": "",
+   "valor_aluguel": 13000,
+   "valor_evidencia_bpo": 12896.5,
+   "situacao": "A verificar",
+   "observacoes": "Aluguel em out/26 (planilha FINANCEIRO): R$ 9.164,60",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  },
+  {
+   "unidade": "CATETE",
+   "locador": "",
+   "valor_aluguel": 27000,
+   "valor_evidencia_bpo": 26348.27,
+   "situacao": "A verificar",
+   "observacoes": "Aluguel em out/26 (planilha FINANCEIRO): R$ 19.262,24",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  },
+  {
+   "unidade": "COPA",
+   "locador": "",
+   "valor_aluguel": 18000,
+   "valor_evidencia_bpo": 14307.28,
+   "situacao": "A verificar",
+   "observacoes": "100 m². Aluguel em out/26 (planilha FINANCEIRO): R$ 14.307,28",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  },
+  {
+   "unidade": "R3",
+   "locador": "",
+   "valor_aluguel": null,
+   "valor_evidencia_bpo": 19623.71,
+   "situacao": "A verificar",
+   "observacoes": "Só aparece no material da BPO.",
+   "fonte": "PLANILHA PRINCIPAL (IMÓVEIS) e DESPESAS.xlsx (BPO)"
+  }
+ ],
+ "folha": [
+  {
+   "competencia": "2026-08",
+   "unidade": "T2",
+   "grupo": "Salários",
+   "valor": 11894.48,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T3",
+   "grupo": "Salários",
+   "valor": 20947.22,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CACUIA",
+   "grupo": "Salários",
+   "valor": 11938.78,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CATETE",
+   "grupo": "Salários",
+   "valor": 11139.63,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "COPA",
+   "grupo": "Salários",
+   "valor": 7230.15,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "GALEAO",
+   "grupo": "Salários",
+   "valor": 13029.94,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "R3",
+   "grupo": "Salários",
+   "valor": 9531.05,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "ECOM",
+   "grupo": "Salários",
+   "valor": 6646.4,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "DEP",
+   "grupo": "Salários",
+   "valor": 13210.84,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T2",
+   "grupo": "Encargos",
+   "valor": 1115.66,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T3",
+   "grupo": "Encargos",
+   "valor": 1860.47,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CACUIA",
+   "grupo": "Encargos",
+   "valor": 1105.04,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CATETE",
+   "grupo": "Encargos",
+   "valor": 877.75,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "COPA",
+   "grupo": "Encargos",
+   "valor": 698.69,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "GALEAO",
+   "grupo": "Encargos",
+   "valor": 1138.41,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "R3",
+   "grupo": "Encargos",
+   "valor": 775.87,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "ECOM",
+   "grupo": "Encargos",
+   "valor": 568.67,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "DEP",
+   "grupo": "Encargos",
+   "valor": 1051.99,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T2",
+   "grupo": "Benefícios",
+   "valor": 22.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T3",
+   "grupo": "Benefícios",
+   "valor": 57.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CACUIA",
+   "grupo": "Benefícios",
+   "valor": 57.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CATETE",
+   "grupo": "Benefícios",
+   "valor": 57.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "COPA",
+   "grupo": "Benefícios",
+   "valor": 57.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "GALEAO",
+   "grupo": "Benefícios",
+   "valor": 57.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "R3",
+   "grupo": "Benefícios",
+   "valor": 22.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "ECOM",
+   "grupo": "Benefícios",
+   "valor": 22.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "DEP",
+   "grupo": "Benefícios",
+   "valor": 396.8,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T2",
+   "grupo": "Férias",
+   "valor": 2118.71,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "T3",
+   "grupo": "Férias",
+   "valor": 2963.98,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CACUIA",
+   "grupo": "Férias",
+   "valor": 2175.63,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "CATETE",
+   "grupo": "Férias",
+   "valor": 167.33,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "COPA",
+   "grupo": "Férias",
+   "valor": 1753.46,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "GALEAO",
+   "grupo": "Férias",
+   "valor": 1686.55,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "R3",
+   "grupo": "Férias",
+   "valor": 167.33,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "ECOM",
+   "grupo": "Férias",
+   "valor": 529.59,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-08",
+   "unidade": "DEP",
+   "grupo": "Férias",
+   "valor": 160.63,
+   "status": "A confirmar",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_desp_pessoal, BPO)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Salários",
+   "valor": 6658.45,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Salários",
+   "valor": 6429.29,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Salários",
+   "valor": 8342.45,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Salários",
+   "valor": 15299.25,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Salários",
+   "valor": 10344.03,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Salários",
+   "valor": 5885.16,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Salários",
+   "valor": 5163.63,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Salários",
+   "valor": 5646.97,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Salários",
+   "valor": 6324.05,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Salários",
+   "valor": 8223.82,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "FGTS",
+   "valor": 630.15,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "FGTS",
+   "valor": 673.68,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "FGTS",
+   "valor": 772.88,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "FGTS",
+   "valor": 1455.13,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "FGTS",
+   "valor": 981.63,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "FGTS",
+   "valor": 547.05,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "FGTS",
+   "valor": 508.3,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "FGTS",
+   "valor": 563.72,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "FGTS",
+   "valor": 702.49,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "FGTS",
+   "valor": 796.05,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "INSS",
+   "valor": 611.64,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "INSS",
+   "valor": 650.95,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "INSS",
+   "valor": 747.87,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "INSS",
+   "valor": 1418.09,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "INSS",
+   "valor": 958.38,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "INSS",
+   "valor": 542.46,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "INSS",
+   "valor": 509.18,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "INSS",
+   "valor": 650.06,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "INSS",
+   "valor": 693.02,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "INSS",
+   "valor": 848.28,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Horas extras",
+   "valor": -310.11,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Horas extras",
+   "valor": -125.51,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Horas extras",
+   "valor": -110.97,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Horas extras",
+   "valor": -295.31,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Horas extras",
+   "valor": -604.89,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Horas extras",
+   "valor": -327.74,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Horas extras",
+   "valor": -28.41,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Horas extras",
+   "valor": -607.93,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Horas extras",
+   "valor": -246.58,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Horas extras",
+   "valor": -90.46,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Faltas",
+   "valor": -1277.5,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Faltas",
+   "valor": -2072.98,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Faltas",
+   "valor": -39.41,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Faltas",
+   "valor": -870.69,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Faltas",
+   "valor": -230.92,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Faltas",
+   "valor": -591.53,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Faltas",
+   "valor": -5.07,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Faltas",
+   "valor": -209.24,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Passagem / VT",
+   "valor": 437.39,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Passagem / VT",
+   "valor": 552.2,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Passagem / VT",
+   "valor": 219,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Passagem / VT",
+   "valor": 554.5,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Passagem / VT",
+   "valor": 549.13,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Passagem / VT",
+   "valor": 219.83,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Passagem / VT",
+   "valor": 412.45,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Passagem / VT",
+   "valor": 220.66,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Passagem / VT",
+   "valor": 702.5,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Vales e adiantamentos",
+   "valor": 850,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Vales e adiantamentos",
+   "valor": 400,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Vales e adiantamentos",
+   "valor": 1239.26,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Vales e adiantamentos",
+   "valor": 400,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Vales e adiantamentos",
+   "valor": 350,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Empréstimos consignados",
+   "valor": 150.18,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Empréstimos consignados",
+   "valor": 225.06,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Empréstimos consignados",
+   "valor": 283.52,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Empréstimos consignados",
+   "valor": 1430.48,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Empréstimos consignados",
+   "valor": 293.78,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Empréstimos consignados",
+   "valor": 1142.47,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Empréstimos consignados",
+   "valor": 1106.88,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Empréstimos consignados",
+   "valor": 183.83,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Salário família / pensão",
+   "valor": -67.54,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Salário família / pensão",
+   "valor": -135.08,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Salário família / pensão",
+   "valor": -270.16,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Salário família / pensão",
+   "valor": -727.02,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Salário família / pensão",
+   "valor": -353.81,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Bonificação",
+   "valor": 200,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Bonificação",
+   "valor": 200,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Bonificação",
+   "valor": 100,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Bonificação",
+   "valor": 693.47,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Bonificação",
+   "valor": 250,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Bonificação",
+   "valor": 300,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Bonificação",
+   "valor": 1000,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Bonificação",
+   "valor": 240.6,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Bonificação",
+   "valor": 750,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Bonificação",
+   "valor": 950,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Contribuição negocial",
+   "valor": 19.28,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Contribuição negocial",
+   "valor": 18.25,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Contribuição negocial",
+   "valor": 38.21,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Contribuição negocial",
+   "valor": 77.75,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Contribuição negocial",
+   "valor": 38.21,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Contribuição negocial",
+   "valor": 26.82,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Contribuição negocial",
+   "valor": 32.24,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Contribuição negocial",
+   "valor": 36.64,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Contribuição negocial",
+   "valor": 36.44,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Quebra de caixa",
+   "valor": 77,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Quebra de caixa",
+   "valor": 77.0,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Quebra de caixa",
+   "valor": 154,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Quebra de caixa",
+   "valor": 73,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Quebra de caixa",
+   "valor": 231,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Quebra de caixa",
+   "valor": 154,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Benefícios",
+   "valor": 47.8,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Benefícios",
+   "valor": 23.9,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Benefícios",
+   "valor": 600.0,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T2",
+   "grupo": "Ajuste",
+   "valor": 310.11,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CATETE",
+   "grupo": "Ajuste",
+   "valor": 1603.01,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "GALEAO",
+   "grupo": "Ajuste",
+   "valor": 246.05,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "T3",
+   "grupo": "Ajuste",
+   "valor": 2638.45,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "CACUIA",
+   "grupo": "Ajuste",
+   "valor": 1371.32,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "COPA",
+   "grupo": "Ajuste",
+   "valor": 1198.43,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ECOM",
+   "grupo": "Ajuste",
+   "valor": 259.33,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DP",
+   "grupo": "Ajuste",
+   "valor": 1199.46,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "ADM",
+   "grupo": "Ajuste",
+   "valor": 251.65,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "competencia": "2026-10",
+   "unidade": "DEP",
+   "grupo": "Ajuste",
+   "valor": 653.51,
+   "status": "A confirmar",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  }
+ ],
+ "colaboradores": [
+  {
+   "nome": "ADRIANA PEREIRA DA SILVA",
+   "matricula": "80014",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ALEF DA SILVA MARCELINO",
+   "matricula": "50019",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ALEXANDRE RODRIGUES FIUZA",
+   "matricula": "01006000016",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ALINE AQUINO DA SILVA",
+   "matricula": "01005000009",
+   "cargo": "CFTV remoto (Taquara)",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ALINE DA SILVA BARROS",
+   "matricula": "01009000021",
+   "cargo": "CFTV remoto (Taquara)",
+   "unidade": "T2",
+   "rateio": "T2 11% / T3 11% / CACUIA 11% / CATETE 11% / COPA 11% / GALEAO 11% / R3 11% / ECOM 11% / DEP 11%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "AMELIA LARISSA SOUSA PEREIRA",
+   "matricula": "C01S000053",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ANA CLARA MARTINS DA SILVA",
+   "matricula": "50020",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ANDRE DA COSTA AMORIM",
+   "matricula": "01004000018",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ANGELA LUIZ DA SILVA LEAL",
+   "matricula": "60020",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "BRUNO DE LIMA SILVA",
+   "matricula": "C01S000065",
+   "cargo": "",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "CARLOS ALBERTO DA SILVA JUNIOR",
+   "matricula": "30026",
+   "cargo": "",
+   "unidade": "DEP",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "CIRO JOSE SEIXAS DA FONSECA SANTOS",
+   "matricula": "5",
+   "cargo": "Responsável depósito",
+   "unidade": "DEP",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "CLEBIA SANTOS DA SILVA",
+   "matricula": "C01S000060",
+   "cargo": "",
+   "unidade": "CATETE",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "CRISTIANE LUCIA LEMOS DE OLIVEIRA",
+   "matricula": "9",
+   "cargo": "",
+   "unidade": "COPA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "DELZIMAR OLIVEIRA DE CARVALHO",
+   "matricula": "C001S000162",
+   "cargo": "Rateado entre lojas",
+   "unidade": "T2",
+   "rateio": "T2 12% / T3 12% / CACUIA 12% / CATETE 12% / COPA 12% / GALEAO 12% / R3 12% / DEP 12%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "DIEGO RODRIGUES",
+   "matricula": "C01S000105",
+   "cargo": "",
+   "unidade": "COPA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "DOUGLAS DOS SANTOS SILVA",
+   "matricula": "11047",
+   "cargo": "",
+   "unidade": "ECOM",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "EDILEIDE RAIMUNDO DA SILVA",
+   "matricula": "C01S000076",
+   "cargo": "",
+   "unidade": "R3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "EDNA MOREIRA DO NASCIMENTO",
+   "matricula": "11025",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ELAINE OLIVEIRA DOS SANTOS DA SILVA",
+   "matricula": "C01S000056",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ELVIRA OLIVEIRA DA SILVA",
+   "matricula": "00020000141",
+   "cargo": "",
+   "unidade": "COPA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "EVANDRO DOS SANTOS SILVA",
+   "matricula": "C01S000031",
+   "cargo": "",
+   "unidade": "DEP",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "FRANCISCO ANTONIO FARIAS CEDRO",
+   "matricula": "177",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "GEOVANNA PACHECO DE ARAUJO",
+   "matricula": "1004000019",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "GISELDA GOMES DE OLIVEIRA",
+   "matricula": "C01S000044",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "IGOR FREITAS MACHADO",
+   "matricula": "30025",
+   "cargo": "",
+   "unidade": "DEP",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "JOSE EDUARDO DE ANDRADE XAVIER",
+   "matricula": "C01S000087",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "JOSIANE DA SILVA DE CAMPOS",
+   "matricula": "80022",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "JULIANA DA SILVA BARROS",
+   "matricula": "01009000024",
+   "cargo": "Assistente de compras",
+   "unidade": "T2",
+   "rateio": "T2 12% / T3 12% / CACUIA 12% / CATETE 12% / COPA 12% / GALEAO 12% / R3 12% / DEP 12%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "KAREN CRISTINE GOMES DOS SANTOS",
+   "matricula": "80021",
+   "cargo": "",
+   "unidade": "CATETE",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "KAYLA CHRISTINA RAMOS SILVA",
+   "matricula": "01001000014",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "LAIANE OLIVEIRA COSTA",
+   "matricula": "C01S000079",
+   "cargo": "",
+   "unidade": "R3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "LILIANE CRISTINA DOS SANTOS",
+   "matricula": "01005000007",
+   "cargo": "",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "LORYLAINE MOURA CARONE",
+   "matricula": "C01S000138",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARCUS VINICIUS DE SOUZA BARBOSA",
+   "matricula": "01000041",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIA DO CARMO DE ASSIS LUSTOSA",
+   "matricula": "16",
+   "cargo": "",
+   "unidade": "CATETE",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIA DO SOCORRO GONCALVES DO NASCIMENTO",
+   "matricula": "C001S000163",
+   "cargo": "Supervisão",
+   "unidade": "T2",
+   "rateio": "T2 12% / T3 12% / CACUIA 12% / CATETE 12% / COPA 12% / GALEAO 12% / R3 12% / DEP 12%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIA IRACI NASCIMENTO OLIVEIRA",
+   "matricula": "C01S000064",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIA JOSE SILVA DE FARIAS",
+   "matricula": "90015",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIA LUZA DA SILVA XAVIER",
+   "matricula": "10",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MARIANA REGINA VARGAS DE ASSIS",
+   "matricula": "14",
+   "cargo": "ADM / Departamento pessoal",
+   "unidade": "T2",
+   "rateio": "T2 12% / T3 12% / CACUIA 12% / CATETE 12% / COPA 12% / GALEAO 12% / R3 11% / ECOM 10% / DEP 10%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MICHEL DOS SANTOS MENEZES DE MATTOS",
+   "matricula": "C01S000050",
+   "cargo": "",
+   "unidade": "ECOM",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MIZAEL RODRIGUES DE ARAUJO",
+   "matricula": "00997000010",
+   "cargo": "",
+   "unidade": "R3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "MULLER BEZERRA COSTA",
+   "matricula": "60017",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "NATALIA DOS SANTOS TARDIN",
+   "matricula": "1004000018",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "PAULO PEREIRA DE SOUSA",
+   "matricula": "8",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "RAQUEL GOMES DA SILVA",
+   "matricula": "01007000027",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "RAYANNE VIEIRA DA CONCEICAO",
+   "matricula": "11048",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "REGINA MARIA LUGO DA SILVA",
+   "matricula": "C01S000112",
+   "cargo": "",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "REJANE MARIA DE SOUZA",
+   "matricula": "14030",
+   "cargo": "",
+   "unidade": "R3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "RODRIGO FERREIRA MONTEIRO",
+   "matricula": "C01S000120",
+   "cargo": "Rateado entre lojas",
+   "unidade": "CACUIA",
+   "rateio": "CACUIA 50% / GALEAO 50%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "RONALDO CRUZ DA SILVA",
+   "matricula": "30028",
+   "cargo": "",
+   "unidade": "DEP",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ROSELI CORREIA DE SOUZA",
+   "matricula": "15",
+   "cargo": "",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "ROSENI RAMALHO",
+   "matricula": "C01S000133",
+   "cargo": "",
+   "unidade": "T2",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "RUAN CARLOS HONORATO REIS",
+   "matricula": "01007000032",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "SAMUEL BARBOSA",
+   "matricula": "17",
+   "cargo": "",
+   "unidade": "ECOM",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "SEBASTIAO FERREIRA PINHEIRO",
+   "matricula": "12",
+   "cargo": "",
+   "unidade": "CACUIA",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "SILVANA CONCEICAO DA SILVA",
+   "matricula": "C01S000075",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "TAMIRES JESUS DE OLIVEIRA",
+   "matricula": "00020000149",
+   "cargo": "",
+   "unidade": "T3",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "THAIANE PELERINDA CANDIDO",
+   "matricula": "01005000008",
+   "cargo": "",
+   "unidade": "GALEAO",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "THAYNNA YASMIN CUNHA PEREIRA",
+   "matricula": "11028",
+   "cargo": "Rateado entre lojas",
+   "unidade": "T3",
+   "rateio": "T2 10% / T3 20% / CACUIA 10% / CATETE 10% / COPA 10% / GALEAO 10% / R3 10% / ECOM 10% / DEP 10%",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "VANESSA DE JESUS DE OLIVEIRA",
+   "matricula": "C01S000117",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "VANESSA GLORIA PAIVA DE ALMEIDA",
+   "matricula": "11041",
+   "cargo": "",
+   "unidade": null,
+   "rateio": "",
+   "situacao": "A confirmar",
+   "observacoes": "Sem alocação em ago/2026 (possível desligado/afastado)",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "WALTER ANTONIO SINFOROSO FILHO",
+   "matricula": "C01S000049",
+   "cargo": "",
+   "unidade": "CATETE",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  },
+  {
+   "nome": "WILLIAN MARTINS",
+   "matricula": "C01S000146",
+   "cargo": "",
+   "unidade": "CATETE",
+   "rateio": "",
+   "situacao": "Ativo",
+   "observacoes": "",
+   "fonte": "DESPESAS DE PESSOAL.xlsx (dbo_alocação, ago/2026)"
+  }
+ ],
+ "fornecedores": [
+  {
+   "nome": "DELMO",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "REGINALDO",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "LEANDRO",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "RIO HOME",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "GASTON",
+   "tipo": "Representante",
+   "marcas": "Zein",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "CAVALO MARINHO - FELIPE",
+   "tipo": "Representante",
+   "marcas": "Yins, TT Brasil, Xplast",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "OTAVIO",
+   "tipo": "Representante",
+   "marcas": "Giplas",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "IMPORIENTE",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "SANREMO",
+   "tipo": "Fábrica",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "PAULÃO",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "FELIPE DUTE",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "DIDA",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "LUIZ MOR",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "GISELE",
+   "tipo": "A classificar",
+   "marcas": "",
+   "observacoes": "Lista do RASCUNHO DE INFOS.xlsx"
+  },
+  {
+   "nome": "Movvi (antiga Meridional Cargas)",
+   "tipo": "Prestador de serviço",
+   "marcas": "Transportadora",
+   "telefone": "21 3885-1515",
+   "observacoes": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba AISMA)"
+  }
+ ],
+ "passivos": [
+  {
+   "categoria": "Fornecedores",
+   "credor": "DELMO",
+   "fornecedor": "DELMO",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": 512000,
+   "valor_atual": 512000,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "REGINALDO",
+   "fornecedor": "REGINALDO",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": 300000,
+   "valor_atual": 300000,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "LEANDRO",
+   "fornecedor": "LEANDRO",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": 70000,
+   "valor_atual": 70000,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "RIO HOME",
+   "fornecedor": "RIO HOME",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": 200000,
+   "valor_atual": 200000,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "GASTON",
+   "fornecedor": "GASTON",
+   "descricao": "Dívida com fornecedor (Zein)",
+   "valor_original": 27000,
+   "valor_atual": 27000,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "CAVALO MARINHO - FELIPE",
+   "fornecedor": "CAVALO MARINHO - FELIPE",
+   "descricao": "Dívida com fornecedor (Yins, TT Brasil, Xplast)",
+   "valor_original": 337000,
+   "valor_atual": 337000,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "OTAVIO",
+   "fornecedor": "OTAVIO",
+   "descricao": "Dívida com fornecedor (Giplas)",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "IMPORIENTE",
+   "fornecedor": "IMPORIENTE",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "SANREMO",
+   "fornecedor": "SANREMO",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": 5000,
+   "valor_atual": 5000,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": ""
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "PAULÃO",
+   "fornecedor": "PAULÃO",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "FELIPE DUTE",
+   "fornecedor": "FELIPE DUTE",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "DIDA",
+   "fornecedor": "DIDA",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "LUIZ MOR",
+   "fornecedor": "LUIZ MOR",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "Fornecedores",
+   "credor": "GISELE",
+   "fornecedor": "GISELE",
+   "descricao": "Dívida com fornecedor",
+   "valor_original": null,
+   "valor_atual": null,
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor não informado"
+  },
+  {
+   "categoria": "FGTS",
+   "credor": "Caixa / FGTS",
+   "descricao": "Dívida de FGTS",
+   "valor_original": 250000,
+   "valor_atual": null,
+   "situacao": "Substituído",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Estimativa do rascunho. Substituída pelo valor de R$ 322.663 da planilha FINANCEIRO (out/26)."
+  },
+  {
+   "categoria": "INSS",
+   "credor": "Receita Federal",
+   "descricao": "INSS a verificar",
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Rascunho diz 'INSS VERIFICAR'. Levantar no e-CAC."
+  },
+  {
+   "categoria": "Trabalhista - rescisões",
+   "credor": "Colaboradores",
+   "descricao": "Custo estimado de rescisões",
+   "valor_original": 500000,
+   "valor_atual": 500000,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "Valor de referência informado ('RECISÃO 500000')."
+  },
+  {
+   "categoria": "Trabalhista - acordos/processos",
+   "credor": "Diversos (acordos trabalhistas)",
+   "descricao": "Acordos trabalhistas em pagamento",
+   "parcela_mensal": 20000,
+   "situacao": "Parcelado",
+   "prioridade": "Alta",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "observacoes": "'20.000 em média por mês no total'. Levantar saldo devedor e nº de parcelas."
+  },
+  {
+   "categoria": "Trabalhista - salários atrasados",
+   "credor": "Colaboradores",
+   "descricao": "Salários atrasados",
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "Guilherme (13/11/2026)",
+   "observacoes": "Guilherme citou salários atrasados; o rascunho diz 'folha de pagamento em dia'. Confirmar meses e valores."
+  },
+  {
+   "categoria": "Impostos",
+   "credor": "Receita / SEFAZ-RJ / Prefeitura",
+   "descricao": "Débitos de impostos",
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "Levantamento anterior",
+   "observacoes": "Falta levantar."
+  },
+  {
+   "categoria": "Aluguéis",
+   "credor": "Locadores",
+   "descricao": "Aluguéis em atraso",
+   "situacao": "A verificar",
+   "prioridade": "Média",
+   "fonte": "",
+   "observacoes": "Confirmar por imóvel (tela Imóveis)."
+  },
+  {
+   "categoria": "Bancos/Empréstimos",
+   "credor": "Bancos",
+   "descricao": "Empréstimos, cheque especial, antecipações",
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "ATIVOS X PASSIVOS.txt",
+   "observacoes": "Falta levantar (juros)."
+  },
+  {
+   "categoria": "FGTS",
+   "credor": "Caixa / FGTS",
+   "descricao": "AISMA - FGTS devendo",
+   "valor_original": 322663,
+   "valor_atual": 322663,
+   "situacao": "A verificar",
+   "prioridade": "Alta",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)",
+   "observacoes": "Anotação na planilha: 'AISMA - FGTS DEVENDO R$322.663'. AISMA provavelmente é a razão social/CNPJ. Substitui a estimativa de R$ 250 mil do rascunho (confirmar)."
+  }
+ ],
+ "ativos": [
+  {
+   "categoria": "Saldo bancário",
+   "descricao": "Saldos em conta",
+   "situacao": "A levantar",
+   "fonte": "ATIVOS X PASSIVOS.txt / RAIO X.txt"
+  },
+  {
+   "categoria": "Contas a receber (cartões)",
+   "descricao": "Recebíveis Getnet / cartões",
+   "situacao": "A levantar",
+   "fonte": "ATIVOS X PASSIVOS.txt / RAIO X.txt"
+  },
+  {
+   "categoria": "Títulos",
+   "descricao": "Títulos a receber",
+   "situacao": "A levantar",
+   "fonte": "ATIVOS X PASSIVOS.txt / RAIO X.txt"
+  },
+  {
+   "categoria": "Consórcios",
+   "descricao": "Consórcios Bradesco",
+   "situacao": "A levantar",
+   "fonte": "ATIVOS X PASSIVOS.txt / RAIO X.txt"
+  },
+  {
+   "categoria": "Estoque",
+   "descricao": "Estoque das lojas e depósito",
+   "situacao": "A levantar",
+   "fonte": "ATIVOS X PASSIVOS.txt / RAIO X.txt"
+  }
+ ],
+ "vendas": [
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 4530000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 5040000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 5383000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 12020,
+   "ticket_medio": 37.32
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 4623000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 3344000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 1377000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 5862,
+   "ticket_medio": 26.1
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 4092000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 4358000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 4332000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 10926,
+   "ticket_medio": 33.04
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 3967000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 2966000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 1171000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 5602,
+   "ticket_medio": 23.22
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 3489000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 3821000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 3801000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 3333000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 2382000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GROCA",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 3,
+   "valor": 357000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 2695000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 2849000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 2578000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 6197,
+   "ticket_medio": 34.67
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 2243000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 1750000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 674000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 3038,
+   "ticket_medio": 24.65
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 2443000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 2679000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 2649000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 6703,
+   "ticket_medio": 32.93
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 2318000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 1684000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 646000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 3177,
+   "ticket_medio": 22.6
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 2253000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 2359000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 2462000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 2055000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 1427000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CBONFIM",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 7,
+   "valor": 452000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set"
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 2241000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 2333000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 2302000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 6419,
+   "ticket_medio": 29.89
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 2154000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 1694000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "CATETE",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 617000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 3044,
+   "ticket_medio": 22.52
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 1423000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 1460000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 1325000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 3265,
+   "ticket_medio": 33.81
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 1291000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 1014000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 486000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 1971,
+   "ticket_medio": 27.41
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2021,
+   "meses": 12,
+   "valor": 1194000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2022,
+   "meses": 12,
+   "valor": 1079000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2023,
+   "meses": 12,
+   "valor": 1071000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "",
+   "atendimentos_mes": 2682,
+   "ticket_medio": 33.28
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2024,
+   "meses": 12,
+   "valor": 1021000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2025,
+   "meses": 12,
+   "valor": 861000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": ""
+  },
+  {
+   "unidade": "R3",
+   "periodo": "Ano",
+   "ano": 2026,
+   "meses": 9,
+   "valor": 372000,
+   "fonte": "Potencial de Mercado (BPO, iShop)",
+   "descricao": "jan–set",
+   "atendimentos_mes": 1688,
+   "ticket_medio": 24.52
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2026,
+   "valor": 6514,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2025,
+   "valor": 8270,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2024,
+   "valor": 15761,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2023,
+   "valor": 16766,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2022,
+   "valor": 22299,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T3",
+   "periodo": "Dia",
+   "ano": 2021,
+   "valor": 17561,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2026,
+   "valor": 4178,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2025,
+   "valor": 9537,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2024,
+   "valor": 13409,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2023,
+   "valor": 15784,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2022,
+   "valor": 20213,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "CACUIA",
+   "periodo": "Dia",
+   "ano": 2021,
+   "valor": 15047,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2026,
+   "valor": 4075,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2025,
+   "valor": 5038,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2024,
+   "valor": 7117,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2023,
+   "valor": 8629,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2022,
+   "valor": 8596,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "T2",
+   "periodo": "Dia",
+   "ano": 2021,
+   "valor": 9144,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2026,
+   "valor": 3694,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2025,
+   "valor": 5274,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2024,
+   "valor": 8309,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2023,
+   "valor": 8868,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2022,
+   "valor": 12128,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "GALEAO",
+   "periodo": "Dia",
+   "ano": 2021,
+   "valor": 12927,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2026,
+   "valor": 1876,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2025,
+   "valor": 3250,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2024,
+   "valor": 6106,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2023,
+   "valor": 5331,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2022,
+   "valor": 6805,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  },
+  {
+   "unidade": "COPA",
+   "periodo": "Dia",
+   "ano": 2021,
+   "valor": 4941,
+   "descricao": "Terça-feira da semana 10",
+   "fonte": "VENDA.xlsx"
+  }
+ ],
+ "potencial": [
+  {
+   "unidade": "T3",
+   "venda_2022": 5040000.0,
+   "venda_2025": 3340000.0,
+   "compativel_min": 4420000.0,
+   "compativel_max": 6050000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "venda_2022": 4360000.0,
+   "venda_2025": 2970000.0,
+   "compativel_min": 3820000.0,
+   "compativel_max": 5240000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "GROCA",
+   "venda_2022": 3820000.0,
+   "venda_2025": 2380000.0,
+   "compativel_min": 3350000.0,
+   "compativel_max": 4590000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "venda_2022": 2850000.0,
+   "venda_2025": 1750000.0,
+   "compativel_min": 2500000.0,
+   "compativel_max": 3420000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "T2",
+   "venda_2022": 2680000.0,
+   "venda_2025": 1680000.0,
+   "compativel_min": 2350000.0,
+   "compativel_max": 3220000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "CBONFIM",
+   "venda_2022": 2360000.0,
+   "venda_2025": 1430000.0,
+   "compativel_min": 2069999.9999999998,
+   "compativel_max": 2830000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "venda_2022": 2330000.0,
+   "venda_2025": 1690000.0,
+   "compativel_min": 2049999.9999999998,
+   "compativel_max": 2800000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "venda_2022": 1460000.0,
+   "venda_2025": 1010000.0,
+   "compativel_min": 1280000.0,
+   "compativel_max": 1750000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  },
+  {
+   "unidade": "R3",
+   "venda_2022": 1080000.0,
+   "venda_2025": 860000.0,
+   "compativel_min": 950000.0,
+   "compativel_max": 1300000.0,
+   "premissas": "Venda 2022 × volume do segmento no RJ (jan–ago 2026 ÷ jan–ago 2022) × IPCA 1,195. Faixa: artigos pessoais RJ a varejo RJ. Referência de mercado, não projeção.",
+   "fonte": "Potencial de Mercado (BPO, data-base 30/09/2026)"
+  }
+ ],
+ "planos_acao": [
+  {
+   "titulo": "Obter extratos e saldos de todas as contas bancárias",
+   "area": "Financeiro",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar contas a receber de cartões (Getnet) e títulos",
+   "area": "Financeiro",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar empréstimos, antecipações e juros bancários",
+   "area": "Financeiro",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar consórcios Bradesco (saldo pago, cartas, parcelas)",
+   "area": "Consórcios",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar débitos de impostos e tirar CNDs (federal, estadual, municipal, FGTS)",
+   "area": "Impostos",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Confirmar dívida de FGTS (R$ 322.663 na planilha; rascunho dizia R$ 250 mil) no FGTS Digital/Caixa",
+   "area": "Pessoal",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar INSS em aberto no e-CAC",
+   "area": "Pessoal",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Confirmar se há salários atrasados (rascunho diz folha em dia)",
+   "area": "Pessoal",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar processos e acordos trabalhistas (R$ 20 mil/mês) e saldo devedor",
+   "area": "Pessoal",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Conciliar headcount: 40 (rascunho), 48 (planilha) e 65 nomes na alocação de ago/26",
+   "area": "Pessoal",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Conciliar dívida com fornecedores: R$ 500 mil informado x R$ 1,45 mi na lista",
+   "area": "Fornecedores",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Classificar cada fornecedor como representante ou fábrica e levantar marcas",
+   "area": "Fornecedores",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Obter contratos de aluguel das lojas (valor, vencimento, reajuste, atrasos)",
+   "area": "Imóveis",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Verificar aluguel da S. Pena (Rio de Ouro): planilha mostra R$ 0",
+   "area": "Imóveis",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Confirmar se Recreio 3 está em operação (planilha lista 6 lojas)",
+   "area": "Imóveis",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Avaliar renegociação ou saída da Copacabana (pior loja, aluguel R$ 18 mil)",
+   "area": "Imóveis",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Pedir à BPO o DRE por loja, margem bruta e estoque/giro (sala de dados)",
+   "area": "Custo operacional",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Conseguir acesso aos dados do Alterdata (Nuvem Prime) ou exports diários",
+   "area": "Sistemas/Alterdata",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Plano para recuperar fluxo (atendimentos caíram ~50% desde 2023) e ticket (-28%)",
+   "area": "Vendas",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Levantar taxas (cartão, maquininhas, bancárias)",
+   "area": "Taxas",
+   "prioridade": "Média",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Tirar certidões (CND, trabalhista, protestos) da AISMA e das empresas antigas (Legabri, Bazar o Barato, Rangelar, Fonte de Utilidades, Varejão do Cacuia)",
+   "area": "Jurídico",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  },
+  {
+   "titulo": "Entender a migração AISMA → Vou Comprar Utilidades (66.792.322) e onde ficaram as dívidas (risco de sucessão)",
+   "area": "Jurídico",
+   "prioridade": "Alta",
+   "status": "A fazer"
+  }
+ ],
+ "anotacoes": [
+  {
+   "topico": "Geral",
+   "item": "Funcionários (rascunho)",
+   "informacao": "40",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Geral",
+   "item": "Funcionários (planilha principal, por setor)",
+   "informacao": "48",
+   "fonte": "PLANILHA PRINCIPAL.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Faturamento médio total (mensal)",
+   "informacao": "450000",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Pior loja",
+   "informacao": "Copacabana, 100 m², ~R$ 1.700/dia",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Melhor loja",
+   "informacao": "S. Pena / Cacuia, ~R$ 6.000/dia",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Departamento pessoal",
+   "informacao": "Mariana",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Folha de pagamento",
+   "informacao": "Rascunho diz 'em dia'; Guilherme citou salários atrasados",
+   "fonte": "RASCUNHO / conversa 13/11",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Folha de pagamento (valor informado)",
+   "informacao": "70000",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Remuneração de gerente",
+   "informacao": "Salário + 1% (R$ 200,00)",
+   "fonte": "PLANILHA PRINCIPAL.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Folha BPO ago/2026 (salários+encargos+benefícios+férias)",
+   "informacao": "127238.45",
+   "fonte": "DESPESAS DE PESSOAL.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Fornecedores",
+   "item": "Dívida total com fornecedores (informado)",
+   "informacao": "500000",
+   "fonte": "RASCUNHO DE INFOS.xlsx",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Vendas 7 lojas jan–set 2026 vs jan–set 2025",
+   "informacao": "-47%",
+   "fonte": "Potencial de Mercado (BPO)",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Melhor ano da rede",
+   "informacao": "2022: R$ 25,98 mi (9 lojas)",
+   "fonte": "Potencial de Mercado (BPO)",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Vendas",
+   "item": "Nov+dez no ano",
+   "informacao": "21% a 23% da venda anual (2021–2024)",
+   "fonte": "Potencial de Mercado (BPO)",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Sistemas",
+   "item": "Alterdata / iShop",
+   "informacao": "iShop na Alterdata Nuvem; acesso ao banco só no plano Nuvem Prime",
+   "fonte": "Conversa 13/11",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Geral",
+   "item": "Planilha FINANCEIRO - VOU COMPRAR (Google)",
+   "informacao": "Despesas e folha por loja, out/2026: total R$ 243.304,63/mês",
+   "fonte": "https://docs.google.com/spreadsheets/d/1xOWXQfSaLlfkFq_-nORvNW0VXkUj33Di_OQaIM8YAoM",
+   "status": "Confirmado"
+  },
+  {
+   "topico": "Pessoal",
+   "item": "Folha out/26 (planilha FINANCEIRO)",
+   "informacao": "Folha R$ 78.317 + FGTS R$ 7.631 + INSS R$ 7.630; 49 cargos listados",
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)",
+   "status": "A verificar"
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa atual",
+   "informacao": "Aisma Comércio de Utilidades para o Lar LTDA ME, CNPJ raiz 08.064.809 (uma filial por loja). Escritório: WeWork, Rua Helios Seelinger, 155, Barra da Tijuca. Financeiro: financeiro@voucomprar.com",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba AISMA)",
+   "status": "Confirmado"
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Legabri Utilidades do Lar Ltda. ME",
+   "informacao": "CNPJ 04.163.519 (0001-41 Pavuna; 0002-22 Tijuca 3/Saens Peña, cód. 322786; 0003-03 Depósito, cód. 220149)",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Bazar o Barato da Ilha Ltda. ME",
+   "informacao": "CNPJ 03.545.929 (0001-94 Galeão, cód. 129658; 0002-75 Tijuca 2/D. Isidro, cód. 129665)",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Rangelar Utilidades Ltda. ME",
+   "informacao": "CNPJ 04.499.742/0002-45 (Tijuca 4/C. Bonfim, cód. 200023)",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Fonte de Utilidades Recreio Eireli ME",
+   "informacao": "CNPJ 19.446.356 (0001-81 Recreio 2, cód. 322387; 0003-43 Tijuca 1/G. Roça, cód. 426442; 0002-62 Recreio 3, cód. 426437)",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Varejão do Cacuia Utilidades Ltda. ME",
+   "informacao": "CNPJ 05.017.852 (0001-05 Cacuia, cód. 129662; 0002-96 Recreio 1, cód. 322777)",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa antiga (2019): Loja Pavuna (Legabri)",
+   "informacao": "CNPJ Rua Sargento Fernandes Fontes, 8, Lj A – Pavuna. Não aparece nas vendas desde 2020.",
+   "fonte": "REDE DE LOJAS VOU COMPRAR 2020 1.xlsx (aba EMPRESAS ANTIGAS 2019)",
+   "status": "A verificar",
+   "observacoes": "Verificar se essas empresas antigas têm dívidas (impostos, trabalhistas, fornecedores) que possam passar para o comprador. Os números entre parênteses parecem códigos de sistema/empresa."
+  },
+  {
+   "topico": "Geral",
+   "item": "Empresa nova",
+   "informacao": "VOU COMPRAR UTILIDADES PARA O LAR LTDA, CNPJ raiz 66.792.322 (filiais 0001 Copa, 0002 Catete, 0003 Galeão, 0004 Saens Peña, 0005 D. Isidro, 0006 Cacuia, 0007 C. Bonfim)",
+   "fonte": "REDE LOJAS ATUALIZADA (Google Sheets)",
+   "status": "Confirmado",
+   "observacoes": "As lojas migraram da AISMA (08.064.809) para esta empresa. Confirmar data da migração e se as dívidas ficaram na AISMA (sucessão)."
+  },
+  {
+   "topico": "Geral",
+   "item": "Rangelar Utilidades LTDA",
+   "informacao": "CNPJ 04.499.742/0002-45, Praça Saens Peña, 15, Sala 201 – Tijuca (aparece na lista atualizada)",
+   "fonte": "REDE LOJAS ATUALIZADA (Google Sheets)",
+   "status": "A verificar"
+  }
+ ],
+ "parametros": [
+  {
+   "chave": "margem_bruta_pct",
+   "valor": "50",
+   "descricao": "Margem bruta média (%) usada para estimar o resultado das lojas. PREMISSA: trocar pelo dado real do DRE."
+  },
+  {
+   "chave": "ano_base_vendas",
+   "valor": "2026",
+   "descricao": "Ano usado para a venda média mensal no painel."
+  },
+  {
+   "chave": "competencia_folha",
+   "valor": "2026-10",
+   "descricao": "Competência da folha usada no painel."
+  },
+  {
+   "chave": "versao_despesas",
+   "valor": "Financeiro out/26",
+   "descricao": "Versão de despesas usada no painel (Financeiro out/26, Evidência BPO, Informado Guilherme ou Ajustado (comprador))."
+  }
+ ],
+ "quadro": [
+  {
+   "unidade": "T2",
+   "cargo": "Subgerente",
+   "salario_base": 1927.83,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "cargo": "Operador",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "cargo": "Operador",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ECOM",
+   "cargo": "Estoquista",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DP",
+   "cargo": "Auxiliar De Pessoal",
+   "salario_base": 1842.06,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ADM",
+   "cargo": "Auxiliar De Monitoramento",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DEP",
+   "cargo": "Sup De Logistica",
+   "salario_base": 3644.46,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "cargo": "Repositor",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "cargo": "Fiscal",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "cargo": "Operador",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Operador De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "cargo": "Fiscal",
+   "salario_base": 1838.85,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ECOM",
+   "cargo": "Estoquista",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DP",
+   "cargo": "Encarregado De Dp",
+   "salario_base": 4255.19,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ADM",
+   "cargo": "Assistente De Compras",
+   "salario_base": 2287.04,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DEP",
+   "cargo": "Estoquista",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "cargo": "Operador",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "cargo": "Auxiliar",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "cargo": "Estoquista",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Chefe De Reposição",
+   "salario_base": 1838.85,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Operador De Caixa",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "COPA",
+   "cargo": "Gerente De Loja",
+   "salario_base": 2392.48,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ECOM",
+   "cargo": "Repositor De Mercadorias",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ADM",
+   "cargo": "Chefe De Reposição",
+   "salario_base": 1838.85,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DEP",
+   "cargo": "Conferente De Carga",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "cargo": "Repositor",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "cargo": "Gerente De Loja",
+   "salario_base": 1996.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "cargo": "Repositor",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Operador De Caixa",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ECOM",
+   "cargo": "Estoquista",
+   "salario_base": 1800.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "ADM",
+   "cargo": "Chefe De Reposição",
+   "salario_base": 1838.85,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "DEP",
+   "cargo": "Estoquista",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T2",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1712.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CATETE",
+   "cargo": "Chefe De Reposição",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "GALEAO",
+   "cargo": "Gerente De Loja",
+   "salario_base": 1996.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Subgerente",
+   "salario_base": 1927.83,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Gerente De Loja",
+   "salario_base": 1996.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Operador",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "CACUIA",
+   "cargo": "Subgerente",
+   "salario_base": 1927.83,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Auxiliar De Loja",
+   "salario_base": 1825.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  },
+  {
+   "unidade": "T3",
+   "cargo": "Gerente Comercial",
+   "salario_base": 1996.0,
+   "quantidade": 1,
+   "fonte": "FINANCEIRO - VOU COMPRAR (Google Sheets, aba CAMPINHO, ref. out/2026)"
+  }
+ ]
+}

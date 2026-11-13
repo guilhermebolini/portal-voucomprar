@@ -1,0 +1,19 @@
+{
+  "name": "portal-voucomprar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal de avaliação da rede Vou Comprar",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"sem build\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemailer": "^6.9.16"
+  }
+}
