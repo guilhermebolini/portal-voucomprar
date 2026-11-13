@@ -23,6 +23,34 @@ const CARGAS = [
       return `${dados.itens.length} empresas`;
     },
   },
+  {
+    nome: 'fornecedores-2026-11-13-noite',
+    // Atualiza a lista (34 empresas): muda o valor das que já existem e cria as novas. Não apaga nada
+    // e mantém o que foi editado no portal (situação, prioridade, observações).
+    async rodar(conn) {
+      const dados = require(path.join(__dirname, 'cargas', 'fornecedores-2026-11-13-noite.json'));
+      let novas = 0, alteradas = 0;
+      for (const i of dados.itens) {
+        let [f] = await conn.query('SELECT id FROM fornecedores WHERE nome = ?', [i.empresa]);
+        let fid = f[0]?.id;
+        if (!fid) { const [r] = await conn.query('INSERT INTO fornecedores SET ?', [{ nome: i.empresa, tipo: 'Fábrica', representante: i.representante, observacoes: dados.fonte }]); fid = r.insertId; }
+        else await conn.query('UPDATE fornecedores SET representante = ? WHERE id = ?', [i.representante, fid]);
+        const [p] = await conn.query("SELECT id, valor_atual FROM passivos WHERE grandeza = 'Fornecedores' AND (fornecedor_id = ? OR credor = ?) ORDER BY id LIMIT 1", [fid, i.empresa]);
+        if (p.length) {
+          if (Number(p[0].valor_atual) !== i.valor) alteradas++;
+          await conn.query('UPDATE passivos SET valor_atual = ?, representante = ?, fornecedor_id = ?, fonte = ? WHERE id = ?', [i.valor, i.representante, fid, dados.fonte, p[0].id]);
+        } else {
+          novas++;
+          await conn.query('INSERT INTO passivos SET ?', [{
+            grandeza: 'Fornecedores', categoria: 'Mercadoria - fábrica', credor: i.empresa, representante: i.representante, fornecedor_id: fid,
+            descricao: `Dívida de mercadoria (representante ${i.representante})`, valor_original: i.valor, valor_atual: i.valor, situacao: 'Em aberto', fonte: dados.fonte,
+          }]);
+        }
+      }
+      await conn.query('INSERT INTO importacoes (tipo, arquivo, linhas, usuario) VALUES (?,?,?,?)', ['fornecedores', 'Lista atualizada de fornecedores (13/11 noite)', dados.itens.length, 'carga automática']);
+      return `${dados.itens.length} empresas: ${novas} novas, ${alteradas} com valor alterado`;
+    },
+  },
 ];
 
 async function run(pool) {
