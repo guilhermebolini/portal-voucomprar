@@ -21,7 +21,7 @@ export const del = async <T = any>(url: string) => (await api.delete<T>(url)).da
 
 // ---- tipos dos metadados ----
 export type FieldType = 'text' | 'longtext' | 'int' | 'number' | 'money' | 'date' | 'month' | 'select' | 'ref' | 'bool';
-export interface Field { name: string; label: string; type: FieldType; options?: string[]; ref?: 'unidades' | 'fornecedores'; list?: boolean; required?: boolean; sum?: boolean; help?: string }
+export interface Field { name: string; label: string; type: FieldType; options?: string[]; ref?: 'unidades' | 'fornecedores'; list?: boolean; required?: boolean; sum?: boolean; help?: string; dependeDe?: string; opcoesPor?: Record<string, string[]> }
 export interface Entity { label: string; singular: string; display: string; order?: string; fields: Field[] }
 export interface User { id: number; email: string; nome: string; papel: 'admin' | 'editor' | 'leitor' }
 export interface Meta { entities: Record<string, Entity>; user: User }

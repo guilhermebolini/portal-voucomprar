@@ -10,55 +10,6 @@ import EntityTable from '@/components/EntityTable';
 import EntityForm from '@/components/EntityForm';
 import { Kpi } from './Painel';
 
-const GRUPOS: [string, string, string[] | null][] = [
-  ['todas', 'Todas', null],
-  ['fornecedores', 'Fornecedores', ['Fornecedores']],
-  ['pessoas', 'Pessoas e trabalhistas', ['Trabalhista - salários atrasados', 'Trabalhista - rescisões', 'Trabalhista - acordos/processos', 'FGTS', 'INSS']],
-  ['alugueis', 'Aluguéis', ['Aluguéis']],
-  ['impostos', 'Impostos', ['Impostos']],
-  ['bancos', 'Bancos e consórcios', ['Bancos/Empréstimos', 'Consórcios']],
-  ['outros', 'Outros', ['Outros']],
-];
-
-export function Dividas() {
-  const [sp, setSp] = useSearchParams();
-  const aba = sp.get('aba') || 'todas';
-  const l = useLista('passivos');
-  useRefs();
-  const all = l.data || [];
-  const ativo = (x: any) => !['Pago', 'Substituído'].includes(x.situacao);
-  const soma = (cats: string[] | null) => all.filter(x => ativo(x) && (!cats || cats.includes(x.categoria))).reduce((s, x) => s + (Number(x.valor_atual ?? x.valor_original) || 0), 0);
-  const parc = all.filter(ativo).reduce((s, x) => s + (Number(x.parcela_mensal) || 0), 0);
-  const cats = (GRUPOS.find(g => g[0] === aba) || GRUPOS[0])[2];
-  return (
-    <div>
-      <div className="cabeca"><div><h1>Dívidas e passivos</h1><p>Tudo o que a empresa deve: fornecedores (representantes e fábricas), pessoas (salários, rescisões, acordos, FGTS, INSS), aluguéis, impostos e bancos. Itens "Pago" e "Substituído" não somam.</p></div></div>
-      <Row gutter={[16, 16]}>
-        {GRUPOS.slice(1, 5).map(([k, t, c]) => <Col xs={24} sm={12} xl={6} key={k}><a onClick={() => setSp({ aba: k })}><Kpi rot={t} val={brl(soma(c))} det={`${all.filter(x => ativo(x) && c!.includes(x.categoria)).length} itens`} /></a></Col>)}
-      </Row>
-      <Alert style={{ marginTop: 16 }} type="warning" showIcon message={<>Total mapeado: <b>{brl(soma(null))}</b> · parcelas mensais: <b>{brl(parc)}</b> · {all.filter(x => x.situacao === 'A verificar').length} itens ainda "A verificar" (vários sem valor).</>} />
-      <Tabs style={{ marginTop: 8 }} activeKey={aba} onChange={k => setSp({ aba: k })} items={GRUPOS.map(([k, t]) => ({ key: k, label: t }))} />
-      {!cats ? <EntityTable ent="passivos" titulo="Todas as dívidas" compacto />
-        : cats.map(c => <div key={c} style={{ marginBottom: 28 }}><EntityTable ent="passivos" filtroFixo={{ categoria: c }} titulo={c} compacto /></div>)}
-    </div>
-  );
-}
-
-export function Potencial() {
-  const l = useLista('potencial'); const refs = useRefs();
-  const dados = (l.data || []).map(p => ({ nome: semParen(refs.nome('unidades', p.unidade_id)), 'Venda 2022': p.venda_2022, 'Venda 2025': p.venda_2025, 'Mercado (mín.)': p.compativel_min, 'Mercado (máx.)': p.compativel_max, 'Meta do comprador': p.meta_comprador }));
-  return (
-    <div>
-      <div className="cabeca"><div><h1>Potencial de venda</h1><p>Quanto cada ponto comporta pelo mercado (BPO: venda de 2022 × variação do segmento no RJ × IPCA). Preencha a <b>Meta do comprador</b> com a sua meta realista. Referência de mercado, não projeção.</p></div></div>
-      <Card><ResponsiveContainer width="100%" height={360}>
-        <BarChart data={dados}><CartesianGrid stroke="#eef0f3" vertical={false} /><XAxis dataKey="nome" /><YAxis tickFormatter={v => mi(v)} width={90} /><Tooltip formatter={(v: any) => mi(v)} /><Legend />
-          <Bar dataKey="Venda 2022" fill="#c4c8cf" /><Bar dataKey="Venda 2025" fill="#16181d" /><Bar dataKey="Mercado (mín.)" fill="#f2a0a3" /><Bar dataKey="Mercado (máx.)" fill="#d71920" /><Bar dataKey="Meta do comprador" fill="#12805c" />
-        </BarChart></ResponsiveContainer></Card>
-      <div style={{ marginTop: 16 }}><EntityTable ent="potencial" titulo="Tabela" compacto /></div>
-    </div>
-  );
-}
-
 export function Previsao() {
   const [sp, setSp] = useSearchParams();
   const params = Object.fromEntries(sp.entries());

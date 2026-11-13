@@ -1,17 +1,16 @@
 import { useState } from 'react';
 import { Layout, Menu, Drawer, Button, Tag, Grid } from 'antd';
-import { MenuOutlined, DashboardOutlined, ShopOutlined, LineChartOutlined, AlertOutlined, TeamOutlined, DollarOutlined, HomeOutlined, IdcardOutlined, ApartmentOutlined, RiseOutlined, AimOutlined, CheckSquareOutlined, BankOutlined, FileSearchOutlined, DatabaseOutlined, UploadOutlined, SettingOutlined, HistoryOutlined, UserOutlined, LogoutOutlined, SolutionOutlined } from '@ant-design/icons';
+import { MenuOutlined, DashboardOutlined, ShopOutlined, LineChartOutlined, AlertOutlined, TeamOutlined, DollarOutlined, HomeOutlined, IdcardOutlined, ApartmentOutlined, CheckSquareOutlined, BankOutlined, FileSearchOutlined, DatabaseOutlined, UploadOutlined, SettingOutlined, HistoryOutlined, UserOutlined, LogoutOutlined, SolutionOutlined } from '@ant-design/icons';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { post } from '@/lib/api';
 import { useAuth, PAPEL } from '@/lib/store';
 
 const grupos = [
-  { key: 'g1', label: 'Visão geral', children: [['/painel', 'Painel', <DashboardOutlined />], ['/lojas', 'Lojas', <ShopOutlined />], ['/previsao', 'Previsão de saídas', <LineChartOutlined />]] },
-  { key: 'g2', label: 'Dívidas', children: [['/dividas', 'Dívidas e passivos', <AlertOutlined />], ['/e/fornecedores', 'Fornecedores', <SolutionOutlined />]] },
-  { key: 'g3', label: 'Custos', children: [['/e/despesas', 'Despesas', <DollarOutlined />], ['/e/folha', 'Folha de pagamento', <TeamOutlined />], ['/e/imoveis', 'Imóveis e aluguéis', <HomeOutlined />], ['/e/colaboradores', 'Colaboradores', <IdcardOutlined />], ['/e/quadro', 'Quadro de cargos', <ApartmentOutlined />]] },
-  { key: 'g4', label: 'Vendas', children: [['/e/vendas', 'Vendas', <RiseOutlined />], ['/potencial', 'Potencial de venda', <AimOutlined />]] },
-  { key: 'g5', label: 'Gestão', children: [['/e/planos_acao', 'Planos de ação', <CheckSquareOutlined />], ['/e/ativos', 'Ativos', <BankOutlined />], ['/e/anotacoes', 'Informações levantadas', <FileSearchOutlined />], ['/e/unidades', 'Cadastro de lojas', <DatabaseOutlined />]] },
-  { key: 'g6', label: 'Dados', children: [['/importar', 'Importar planilha', <UploadOutlined />], ['/e/parametros', 'Premissas', <SettingOutlined />], ['/historico', 'Histórico', <HistoryOutlined />]] },
+  { key: 'g1', label: 'Visão geral', children: [['/painel', 'Painel', <DashboardOutlined />], ['/previsao', 'Previsão de saídas', <LineChartOutlined />]] },
+  { key: 'g2', label: 'Custo e dívidas', children: [['/operacional', 'Custo operacional', <DollarOutlined />], ['/pessoas', 'Pessoas', <TeamOutlined />], ['/fornecedores', 'Fornecedores', <SolutionOutlined />], ['/imovel', 'Imóvel', <HomeOutlined />], ['/governo', 'Governo', <BankOutlined />]] },
+  { key: 'g3', label: 'Gestão', children: [['/e/planos_acao', 'Planos de ação', <CheckSquareOutlined />], ['/e/anotacoes', 'Informações levantadas', <FileSearchOutlined />], ['/e/passivos', 'Todas as dívidas', <AlertOutlined />]] },
+  { key: 'g4', label: 'Cadastros', children: [['/e/unidades', 'Lojas e setores', <ShopOutlined />], ['/e/colaboradores', 'Colaboradores', <IdcardOutlined />], ['/e/quadro', 'Quadro de cargos', <ApartmentOutlined />], ['/e/ativos', 'Ativos', <DatabaseOutlined />]] },
+  { key: 'g5', label: 'Dados', children: [['/importar', 'Importar planilha', <UploadOutlined />], ['/e/parametros', 'Premissas', <SettingOutlined />], ['/historico', 'Histórico', <HistoryOutlined />]] },
 ] as const;
 
 export function Marca({ claro = true }: { claro?: boolean }) {
@@ -30,7 +29,7 @@ export default function AppLayout() {
   const items: any[] = grupos.map(g => ({ type: 'group', key: g.key, label: g.label, children: g.children.map(([k, l, i]) => ({ key: k, label: l, icon: i })) }));
   if (user?.papel === 'admin') items.push({ type: 'group', key: 'g7', label: 'Acesso', children: [{ key: '/usuarios', label: 'Usuários', icon: <UserOutlined /> }] });
   const sel = items.flatMap(g => g.children).map((c: any) => c.key).filter((k: string) => loc.pathname === k || loc.pathname.startsWith(k + '/')).sort((a: string, b: string) => b.length - a.length)[0]
-    || (loc.pathname.startsWith('/loja/') ? '/lojas' : '');
+    || '';
 
   const sair = async () => { await post('/auth/sair'); set({ user: null }); nav('/', { replace: true }); };
   const menu = (

@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const crypto = require('crypto');
 const mysql = require('mysql2/promise');
-const { entities, migrate } = require('./schema');
+const { entities, migrate, reclassifica, TIPOS_DIVIDA } = require('./schema');
 const auth = require('./auth');
 const seed = require('./seed');
 
@@ -163,70 +163,50 @@ async function params() {
   return p;
 }
 
+// Painel: as cinco grandezas. Custo operacional (por mês) e dívidas com Pessoas, Fornecedores, Imóvel e Governo.
 app.get('/api/painel', wrap(async (req, res) => {
   const p = await params();
   const versao = req.query.versao || p.versao_despesas || 'Financeiro out/26';
   const comp = req.query.competencia || p.competencia_folha || '2026-10';
-  const ano = Number(req.query.ano || p.ano_base_vendas || 2026);
-  const margem = Number(String(req.query.margem || p.margem_bruta_pct || 50).replace(',', '.')) / 100;
+  const num = v => Number(v) || 0;
 
-  const [unid] = await pool.query('SELECT id, codigo, nome, tipo, situacao FROM unidades ORDER BY nome');
-  const [vend] = await pool.query("SELECT unidade_id, SUM(valor) v, MAX(meses) m FROM vendas WHERE periodo='Ano' AND ano=? GROUP BY unidade_id", [ano]);
-  const [vmes] = await pool.query("SELECT unidade_id, SUM(valor) v, COUNT(DISTINCT mes) m FROM vendas WHERE periodo='Mês' AND ano=? GROUP BY unidade_id", [ano]);
+  const [unid] = await pool.query('SELECT id, codigo, nome, tipo, situacao FROM unidades ORDER BY tipo, nome');
   const [desp] = await pool.query('SELECT unidade_id, SUM(valor_mensal) v FROM despesas WHERE versao=? GROUP BY unidade_id', [versao]);
-  const [despG] = await pool.query('SELECT grupo, SUM(valor_mensal) v FROM despesas WHERE versao=? GROUP BY grupo ORDER BY v DESC', [versao]);
+  const [despG] = await pool.query('SELECT grupo, SUM(valor_mensal) v, COUNT(*) n FROM despesas WHERE versao=? GROUP BY grupo ORDER BY v DESC', [versao]);
   const [fol] = await pool.query('SELECT unidade_id, SUM(valor) v FROM folha WHERE competencia=? GROUP BY unidade_id', [comp]);
-  const [pot] = await pool.query('SELECT unidade_id, compativel_min, compativel_max, meta_comprador, venda_2022, venda_2025 FROM potencial');
-  const by = (rows, k = 'v') => Object.fromEntries(rows.map(r => [r.unidade_id ?? 'null', r[k]]));
-  const V = by(vend), VM = Object.fromEntries(vend.map(r => [r.unidade_id, r.m])), VMes = Object.fromEntries(vmes.map(r => [r.unidade_id, r])), D = by(desp), F = by(fol);
-  const P = Object.fromEntries(pot.map(r => [r.unidade_id, r]));
+  const D = Object.fromEntries(desp.map(r => [r.unidade_id ?? 'null', num(r.v)]));
+  const F = Object.fromEntries(fol.map(r => [r.unidade_id ?? 'null', num(r.v)]));
+  const porLoja = unid.map(u => ({ id: u.id, nome: u.nome, tipo: u.tipo, situacao: u.situacao, despesas: D[u.id] || 0, folha: F[u.id] || 0 }))
+    .map(x => ({ ...x, total: x.despesas + x.folha })).filter(x => x.total > 0).sort((a, b) => b.total - a.total);
+  if ((D.null || 0) + (F.null || 0) > 0) porLoja.push({ id: null, nome: 'Sem loja definida', tipo: '', situacao: '', despesas: D.null || 0, folha: F.null || 0, total: (D.null || 0) + (F.null || 0) });
+  const despesasTotal = desp.reduce((s, r) => s + num(r.v), 0);
+  const folhaTotal = fol.reduce((s, r) => s + num(r.v), 0);
 
-  const lojas = []; const centros = [];
-  for (const u of unid) {
-    let vendaMes = null;
-    if (VMes[u.id] && VMes[u.id].m) vendaMes = VMes[u.id].v / VMes[u.id].m;
-    else if (V[u.id] != null) vendaMes = V[u.id] / (VM[u.id] || 12);
-    const row = { ...u, venda_mes: vendaMes, despesas_mes: D[u.id] || 0, folha_mes: F[u.id] || 0, potencial: P[u.id] || null };
-    row.custo_mes = row.despesas_mes + row.folha_mes;
-    row.margem_mes = vendaMes != null ? vendaMes * margem : null;
-    row.resultado_mes = vendaMes != null ? row.margem_mes - row.custo_mes : null;
-    (u.tipo === 'Loja' ? lojas : centros).push(row);
+  const [pas] = await pool.query(`SELECT grandeza, categoria, SUM(COALESCE(valor_atual, valor_original, 0)) v, SUM(COALESCE(parcela_mensal,0)) parcela, COUNT(*) n,
+    SUM(COALESCE(valor_atual, valor_original) IS NULL) sem_valor, SUM(situacao='A verificar') a_verificar
+    FROM passivos WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído') GROUP BY grandeza, categoria ORDER BY v DESC`);
+  const dividas = {};
+  for (const g of Object.keys(TIPOS_DIVIDA)) dividas[g] = { total: 0, parcelas: 0, itens: 0, sem_valor: 0, a_verificar: 0, tipos: [] };
+  for (const r of pas) {
+    const d = dividas[r.grandeza] || dividas.Outros;
+    d.total += num(r.v); d.parcelas += num(r.parcela); d.itens += num(r.n); d.sem_valor += num(r.sem_valor); d.a_verificar += num(r.a_verificar);
+    d.tipos.push({ tipo: r.categoria, valor: num(r.v), itens: num(r.n), sem_valor: num(r.sem_valor) });
   }
-  const semUnidade = (D.null || 0) + (F.null || 0);
-  const lojasAtivas = lojas.filter(l => l.situacao === 'Em operação' || l.custo_mes > 0);
-  lojasAtivas.forEach(l => { l.considerada = true; });
-  const sum = (a, k) => a.reduce((s, x) => s + (Number(x[k]) || 0), 0);
-  const custoCentral = sum(centros, 'custo_mes') + semUnidade;
-  const vendaTotal = sum(lojasAtivas, 'venda_mes');
-  // rateio do custo central proporcional à venda
-  for (const l of lojasAtivas) {
-    l.rateio_central = vendaTotal ? custoCentral * (l.venda_mes || 0) / vendaTotal : 0;
-    l.resultado_apos_rateio = l.resultado_mes != null ? l.resultado_mes - l.rateio_central : null;
-  }
-
-  const [pas] = await pool.query("SELECT categoria, SUM(COALESCE(valor_atual, valor_original, 0)) v, SUM(COALESCE(parcela_mensal,0)) parcela, COUNT(*) n, SUM(COALESCE(valor_atual, valor_original) IS NULL) sem_valor FROM passivos WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído') GROUP BY categoria ORDER BY v DESC");
-  const [atv] = await pool.query("SELECT categoria, SUM(COALESCE(valor,0)) v, COUNT(*) n, SUM(valor IS NULL) sem_valor FROM ativos GROUP BY categoria ORDER BY v DESC");
-  const [planos] = await pool.query('SELECT status, COUNT(*) n FROM planos_acao GROUP BY status');
+  const [maiores] = await pool.query(`SELECT id, grandeza, categoria, credor, descricao, COALESCE(valor_atual, valor_original) valor, situacao FROM passivos
+    WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído') AND COALESCE(valor_atual, valor_original) > 0 ORDER BY valor DESC LIMIT 8`);
   const [planosAlta] = await pool.query("SELECT id, titulo, area, status, prazo, responsavel FROM planos_acao WHERE prioridade='Alta' AND status <> 'Concluído' ORDER BY FIELD(status,'Em andamento','Bloqueado','A fazer'), prazo IS NULL, prazo LIMIT 8");
-  const [serie] = await pool.query("SELECT v.ano, u.nome, u.situacao, v.valor, v.meses FROM vendas v JOIN unidades u ON u.id = v.unidade_id WHERE v.periodo='Ano' ORDER BY v.ano, u.nome");
   const [versoes] = await pool.query('SELECT DISTINCT versao FROM despesas WHERE versao IS NOT NULL ORDER BY versao');
   const [comps] = await pool.query('SELECT DISTINCT competencia FROM folha WHERE competencia IS NOT NULL ORDER BY competencia DESC');
-  const [anos] = await pool.query("SELECT DISTINCT ano FROM vendas WHERE ano IS NOT NULL ORDER BY ano DESC");
-  const [pend] = await pool.query("SELECT (SELECT COUNT(*) FROM passivos WHERE situacao='A verificar') passivos, (SELECT COUNT(*) FROM ativos WHERE situacao='A levantar') ativos, (SELECT COUNT(*) FROM anotacoes WHERE status='A verificar') infos");
+  const [pend] = await pool.query("SELECT (SELECT COUNT(*) FROM passivos WHERE situacao='A verificar') passivos, (SELECT COUNT(*) FROM anotacoes WHERE status='A verificar') infos");
 
-  const passivoTotal = sum(pas, 'v'); const ativoTotal = sum(atv, 'v');
+  const dividaTotal = Object.values(dividas).reduce((s, d) => s + d.total, 0);
+  const parcelasTotal = Object.values(dividas).reduce((s, d) => s + d.parcelas, 0);
   res.json({
-    filtros: { versao, competencia: comp, ano, margem_pct: margem * 100, versoes: versoes.map(r => r.versao), competencias: comps.map(r => r.competencia), anos: anos.map(r => r.ano) },
-    lojas, centros, custo_central: custoCentral, sem_unidade: semUnidade,
-    totais: {
-      venda_mes: vendaTotal, despesas_mes: sum(lojasAtivas, 'despesas_mes') + sum(centros, 'despesas_mes') + (D.null || 0),
-      folha_mes: sum(lojasAtivas, 'folha_mes') + sum(centros, 'folha_mes') + (F.null || 0),
-      custo_mes: sum(lojasAtivas, 'custo_mes') + custoCentral,
-      margem_mes: vendaTotal * margem,
-      passivo: passivoTotal, ativo: ativoTotal, parcelas_mes: sum(pas, 'parcela'),
-      liquidez: passivoTotal ? ativoTotal / passivoTotal : null,
-    },
-    despesas_grupo: despG, passivos: pas, ativos: atv, planos, planos_alta: planosAlta, serie, pendencias: pend[0],
+    filtros: { versao, competencia: comp, versoes: versoes.map(r => r.versao), competencias: comps.map(r => r.competencia) },
+    operacional: { total: despesasTotal + folhaTotal, despesas: despesasTotal, folha: folhaTotal, por_grupo: despG.map(r => ({ grupo: r.grupo, valor: num(r.v), itens: r.n })), por_loja: porLoja },
+    dividas, divida_total: dividaTotal, parcelas_mes: parcelasTotal,
+    saida_mes: despesasTotal + folhaTotal + parcelasTotal,
+    maiores, planos_alta: planosAlta, pendencias: pend[0],
   });
 }));
 
@@ -256,7 +236,7 @@ app.get('/api/previsao', wrap(async (req, res) => {
   const [[{ f }]] = await pool.query('SELECT COALESCE(SUM(valor),0) f FROM folha WHERE competencia=?', [comp]);
   const [[{ sal }]] = await pool.query("SELECT COALESCE(SUM(valor),0) sal FROM folha WHERE competencia=? AND grupo='Salários'", [comp]);
   const [dg] = await pool.query('SELECT grupo, SUM(valor_mensal) v FROM despesas WHERE versao=? AND COALESCE(recorrente,1)=1 GROUP BY grupo ORDER BY v DESC', [versao]);
-  const [pas] = await pool.query("SELECT id, categoria, credor, descricao, parcela_mensal, parcelas_restantes, vencimento, COALESCE(valor_atual, valor_original) saldo FROM passivos WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído')");
+  const [pas] = await pool.query("SELECT id, grandeza, categoria, credor, descricao, parcela_mensal, parcelas_restantes, vencimento, COALESCE(valor_atual, valor_original) saldo FROM passivos WHERE COALESCE(situacao,'') NOT IN ('Pago','Substituído')");
   const [y0, m0] = ini.split('-').map(Number);
   const lista = [];
   for (let i = 0; i < meses; i++) {
@@ -276,7 +256,7 @@ app.get('/api/previsao', wrap(async (req, res) => {
     item.total = item.despesas + item.folha + item.decimo_terceiro + item.parcelamentos + item.vencimentos;
     lista.push(item);
   }
-  const semPrazo = pas.filter(x => !x.parcela_mensal && !x.vencimento).map(x => ({ id: x.id, categoria: x.categoria, credor: x.credor, descricao: x.descricao, saldo: x.saldo }));
+  const semPrazo = pas.filter(x => !x.parcela_mensal && !x.vencimento).map(x => ({ id: x.id, grandeza: x.grandeza, categoria: x.categoria, credor: x.credor, descricao: x.descricao, saldo: x.saldo }));
   res.json({ versao, competencia: comp, despesas_grupo: dg, meses: lista, sem_prazo: semPrazo, total: lista.reduce((s, x) => s + x.total, 0) });
 }));
 
@@ -377,6 +357,7 @@ app.use((err, req, res, next) => {
   try {
     await migrate(pool);
     await seed.run(pool);
+    await reclassifica(pool);
     console.log('Banco pronto');
   } catch (e) { console.error('Falha ao preparar o banco:', e); }
   app.listen(PORT, () => console.log('Portal Vou Comprar na porta ' + PORT));

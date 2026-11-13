@@ -41,7 +41,7 @@ export default function EntityTable({ ent, filtroFixo = {}, titulo, descricao, c
   const e = meta.data?.entities[ent];
   const rows = lista.data || [];
 
-  const cols = useMemo(() => !e ? [] : (colunas ? colunas.map(n => e.fields.find(f => f.name === n)!).filter(Boolean) : e.fields.filter(f => f.list)), [e, colunas]);
+  const cols = useMemo(() => !e ? [] : (colunas ? colunas.map(n => e.fields.find(f => f.name === n)!).filter(Boolean) : e.fields.filter(f => f.list && !(f.name in filtroFixo))), [e, colunas, filtroFixo]);
   const filtraveis = useMemo(() => !e ? [] : e.fields.filter(f => (f.type === 'select' || f.type === 'ref' || f.name === 'ano' || f.name === 'competencia') && f.list && !(f.name in filtroFixo)), [e, filtroFixo]);
   const txt = (f: Field, v: any) => f.type === 'ref' ? refs.nome(f.ref, v) : v;
 

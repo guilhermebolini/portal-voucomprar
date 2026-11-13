@@ -1,95 +1,115 @@
-import { Card, Col, Row, Select, InputNumber, Space, Table, Tag, Progress, List, Spin, Alert } from 'antd';
+import { Card, Col, Row, Select, Space, Table, Tag, List, Spin, Alert } from 'antd';
 import { useQuery } from '@tanstack/react-query';
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, PieChart, Pie, Legend, LineChart, Line, CartesianGrid } from 'recharts';
+import { Link, useSearchParams } from 'react-router-dom';
 import { get } from '@/lib/api';
-import { brl, mesBR, num, mi, corTag, CORES, semParen } from '@/lib/fmt';
+import { brl, mesBR, corTag, semParen } from '@/lib/fmt';
+import { OPERACIONAL, DIVIDAS } from '@/lib/grandezas';
 
 export function Kpi({ rot, val, det, tom }: { rot: string; val: React.ReactNode; det?: React.ReactNode; tom?: 'neg' | 'pos' }) {
   return <Card className={'kpi ' + (tom || '')}><div className="rot">{rot}</div><div className="val">{val}</div>{det && <div className="det">{det}</div>}</Card>;
 }
 
-export default function Painel() {
+export function usePainel() {
   const [sp, setSp] = useSearchParams();
   const params = Object.fromEntries(sp.entries());
-  const nav = useNavigate();
   const q = useQuery({ queryKey: ['painel', params], queryFn: () => get('/painel', params) });
+  const muda = (k: string, v: any) => { const n = new URLSearchParams(sp); n.set(k, String(v)); setSp(n); };
+  return { q, muda };
+}
+
+export function FiltrosCusto({ f, muda }: { f: any; muda: (k: string, v: any) => void }) {
+  return (
+    <Space wrap>
+      <Select value={f.versao} onChange={v => muda('versao', v)} options={f.versoes.map((v: string) => ({ value: v, label: 'Despesas: ' + v }))} popupMatchSelectWidth={false} />
+      <Select value={f.competencia} onChange={v => muda('competencia', v)} options={f.competencias.map((v: string) => ({ value: v, label: 'Folha ' + mesBR(v) }))} />
+    </Space>
+  );
+}
+
+// Barra horizontal simples: rótulo, valor e a proporção
+export function Barras({ itens, cor }: { itens: { rot: string; valor: number; extra?: React.ReactNode }[]; cor: string }) {
+  const max = Math.max(1, ...itens.map(i => i.valor));
+  return <div>{itens.map(i => (
+    <div key={i.rot} className="barra">
+      <div className="barra-topo"><span>{i.rot}{i.extra}</span><b>{brl(i.valor)}</b></div>
+      <div className="barra-fundo"><span style={{ width: `${(i.valor / max) * 100}%`, background: cor }} /></div>
+    </div>))}</div>;
+}
+
+export default function Painel() {
+  const { q, muda } = usePainel();
   if (q.isLoading) return <Spin />;
   if (q.error) return <Alert type="error" message={(q.error as Error).message} />;
-  const d = q.data; const t = d.totais; const f = d.filtros;
-  const resultado = t.margem_mes - t.custo_mes;
-  const muda = (k: string, v: any) => { const n = new URLSearchParams(sp); n.set(k, String(v)); setSp(n); };
-  const lojas = d.lojas.filter((l: any) => l.considerada);
-  const anos: number[] = [...new Set<number>(d.serie.map((s: any) => s.ano))];
-  const nomes: string[] = [...new Set<string>(d.serie.map((s: any) => s.nome))];
-  const serie = anos.map(a => Object.fromEntries([['ano', a], ...nomes.map(n => [semParen(n), (d.serie.find((s: any) => s.nome === n && s.ano === a) || {}).valor ?? null])]));
-  const encerradas = new Set(d.serie.filter((s: any) => s.situacao === 'Encerrada').map((s: any) => semParen(s.nome)));
-  const maxG = d.despesas_grupo[0]?.v || 1;
+  const d = q.data; const f = d.filtros; const op = d.operacional;
+  const outros = d.dividas.Outros;
 
   return (
     <div>
       <div className="cabeca">
-        <div><h1>Painel da avaliação</h1><p>Venda média mensal de {f.ano} contra o custo mensal: despesas da versão <b>{f.versao}</b> + folha de {mesBR(f.competencia)}. Margem bruta usada: <b>{num(f.margem_pct)}%</b> (premissa; troque aqui ou em Premissas).</p></div>
-        <Space wrap>
-          <Select value={f.versao} onChange={v => muda('versao', v)} options={f.versoes.map((v: string) => ({ value: v, label: 'Despesas: ' + v }))} popupMatchSelectWidth={false} />
-          <Select value={f.competencia} onChange={v => muda('competencia', v)} options={f.competencias.map((v: string) => ({ value: v, label: 'Folha ' + mesBR(v) }))} />
-          <Select value={f.ano} onChange={v => muda('ano', v)} options={f.anos.map((v: number) => ({ value: v, label: 'Vendas ' + v }))} />
-          <InputNumber value={f.margem_pct} onChange={v => v != null && muda('margem', v)} addonBefore="Margem" addonAfter="%" style={{ width: 170 }} />
-        </Space>
+        <div><h1>Painel</h1><p>Quanto o negócio custa por mês para ficar aberto e quanto ele deve, separado em quatro grupos: pessoas, fornecedores, imóvel e governo.</p></div>
+        <FiltrosCusto f={f} muda={muda} />
       </div>
+
       <Row gutter={[16, 16]}>
-        <Col xs={24} sm={12} xl={6}><Kpi rot="Venda média / mês" val={brl(t.venda_mes)} det={`${f.ano}, lojas consideradas`} /></Col>
-        <Col xs={24} sm={12} xl={6}><Kpi rot="Custo fixo / mês" val={brl(t.custo_mes)} det={<>Despesas {brl(t.despesas_mes)} + folha {brl(t.folha_mes)}</>} /></Col>
-        <Col xs={24} sm={12} xl={6}><Kpi rot="Resultado estimado / mês" val={brl(resultado)} tom={resultado < 0 ? 'neg' : 'pos'} det={<>Margem {brl(t.margem_mes)} − custo fixo</>} /></Col>
-        <Col xs={24} sm={12} xl={6}><Link to="/dividas"><Kpi rot="Dívidas mapeadas" val={brl(t.passivo)} tom="neg" det={<>{brl(t.parcelas_mes)}/mês em parcelas · {d.pendencias.passivos} itens a verificar</>} /></Link></Col>
+        <Col xs={24} md={8}><Kpi rot="Custo operacional / mês" val={brl(op.total)} det={<>Despesas {brl(op.despesas)} + folha {brl(op.folha)}</>} /></Col>
+        <Col xs={24} md={8}><Kpi rot="Dívidas mapeadas" tom="neg" val={brl(d.divida_total)} det={<>{d.pendencias.passivos} itens ainda a verificar</>} /></Col>
+        <Col xs={24} md={8}><Kpi rot="Saída mensal comprometida" val={brl(d.saida_mes)} det={<>Custo operacional + {brl(d.parcelas_mes)} de parcelas de dívidas</>} /></Col>
       </Row>
+
+      <div className="grandezas">
+        <Link to={OPERACIONAL.rota} className="grandeza" style={{ borderTopColor: OPERACIONAL.cor }}>
+          <div className="g-tit">{OPERACIONAL.titulo}</div>
+          <div className="g-val">{brl(op.total)}<small>/mês</small></div>
+          <div className="g-det">{OPERACIONAL.resumo}</div>
+        </Link>
+        {DIVIDAS.map(g => {
+          const x = d.dividas[g.chave];
+          return (
+            <Link key={g.chave} to={g.rota} className="grandeza" style={{ borderTopColor: g.cor }}>
+              <div className="g-tit">{g.titulo}</div>
+              <div className="g-val">{brl(x.total)}</div>
+              <div className="g-det">{x.itens} {x.itens === 1 ? 'item' : 'itens'}{x.sem_valor ? <>, <span className="neg">{x.sem_valor} sem valor</span></> : null}{x.parcelas ? <> · parcelas {brl(x.parcelas)}/mês</> : null}</div>
+              <div className="g-det">{g.resumo}</div>
+            </Link>
+          );
+        })}
+      </div>
+      {outros.itens > 0 && <Alert style={{ marginTop: 12 }} type="info" showIcon message={<>Há {outros.itens} {outros.itens === 1 ? 'dívida' : 'dívidas'} fora dos quatro grupos ({outros.tipos.map((t: any) => t.tipo).join(', ')}): {brl(outros.total)}. <Link to="/e/passivos">Abrir e reclassificar</Link>.</>} />}
+
       <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
-        <Col xs={24} xl={12}><Card title="Resultado por loja (mês)" extra={<span className="dica">antes do rateio de {brl(d.custo_central)} do central</span>}>
-          <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={lojas.map((l: any) => ({ nome: semParen(l.nome), v: Math.round(l.resultado_mes) }))} layout="vertical" margin={{ left: 30 }}>
-              <XAxis type="number" tickFormatter={v => mil(v)} /><YAxis type="category" dataKey="nome" width={110} />
-              <Tooltip formatter={(v: any) => brl(v)} /><Bar dataKey="v" name="Resultado" radius={4}>{lojas.map((l: any, i: number) => <Cell key={i} fill={l.resultado_mes < 0 ? '#d71920' : '#12805c'} />)}</Bar>
-            </BarChart>
-          </ResponsiveContainer></Card></Col>
-        <Col xs={24} xl={12}><Card title="Dívidas por tipo" extra={<span className="dica">Ativos mapeados: {brl(t.ativo)}</span>}>
-          <ResponsiveContainer width="100%" height={300}>
-            <PieChart><Pie data={d.passivos.filter((p: any) => p.v > 0)} dataKey="v" nameKey="categoria" innerRadius={60} outerRadius={105} paddingAngle={1}>{d.passivos.map((_: any, i: number) => <Cell key={i} fill={CORES[i % CORES.length]} />)}</Pie>
-              <Tooltip formatter={(v: any) => brl(v)} /><Legend layout="vertical" align="right" verticalAlign="middle" /></PieChart>
-          </ResponsiveContainer></Card></Col>
+        <Col xs={24} lg={12}>
+          <Card title="Custo operacional por grupo" extra={<span className="dica">{f.versao} · folha {mesBR(f.competencia)}</span>} style={{ height: '100%' }}>
+            <Barras cor={OPERACIONAL.cor} itens={[{ rot: 'Folha de pagamento', valor: op.folha }, ...op.por_grupo.map((g: any) => ({ rot: g.grupo, valor: g.valor }))].sort((a, b) => b.valor - a.valor)} />
+          </Card>
+        </Col>
+        <Col xs={24} lg={12}>
+          <Card title="Custo operacional por loja / setor" style={{ height: '100%' }} extra={<Link to={OPERACIONAL.rota}>Detalhar</Link>}>
+            <Table rowKey={r => String(r.id)} size="small" pagination={false} dataSource={op.por_loja} scroll={{ x: 'max-content' }}
+              columns={[
+                { title: 'Loja / setor', dataIndex: 'nome', render: (v: string, r: any) => <>{semParen(v)} {r.situacao && r.situacao !== 'Em operação' ? <Tag color={corTag(r.situacao)}>{r.situacao}</Tag> : null}</> },
+                { title: 'Despesas', dataIndex: 'despesas', align: 'right', render: brl },
+                { title: 'Folha', dataIndex: 'folha', align: 'right', render: brl },
+                { title: 'Total/mês', dataIndex: 'total', align: 'right', render: (v: number) => <b>{brl(v)}</b> },
+              ]} />
+          </Card>
+        </Col>
       </Row>
-      <Card title="Lojas" style={{ marginTop: 16 }} extra={<Link to="/lojas">Todas as lojas</Link>}>
-        <Table rowKey="id" size="middle" pagination={false} scroll={{ x: 'max-content' }} dataSource={lojas} onRow={(l: any) => ({ onClick: () => nav('/loja/' + l.id), style: { cursor: 'pointer' } })}
-          columns={[
-            { title: 'Loja', dataIndex: 'nome', render: v => <b>{v}</b> },
-            { title: 'Situação', dataIndex: 'situacao', render: v => <Tag color={corTag(v)}>{v}</Tag> },
-            { title: 'Venda/mês', dataIndex: 'venda_mes', align: 'right', render: brl, sorter: (a: any, b: any) => a.venda_mes - b.venda_mes },
-            { title: 'Despesas/mês', dataIndex: 'despesas_mes', align: 'right', render: brl },
-            { title: 'Folha/mês', dataIndex: 'folha_mes', align: 'right', render: brl },
-            { title: 'Custo/venda', align: 'right', render: (_: any, l: any) => l.venda_mes ? num(100 * l.custo_mes / l.venda_mes) + '%' : '—' },
-            { title: 'Resultado', dataIndex: 'resultado_mes', align: 'right', render: v => <span className={v < 0 ? 'neg' : 'pos'}>{brl(v)}</span>, sorter: (a: any, b: any) => a.resultado_mes - b.resultado_mes },
-            { title: 'Após rateio', dataIndex: 'resultado_apos_rateio', align: 'right', render: v => <span className={v < 0 ? 'neg' : 'pos'}>{brl(v)}</span> },
-          ]} /></Card>
+
       <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
-        <Col xs={24} xl={14}><Card title="Venda anual por loja" extra={<span className="dica">2026 = jan–set; cinza = encerradas</span>}>
-          <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={serie}><CartesianGrid stroke="#eef0f3" vertical={false} /><XAxis dataKey="ano" /><YAxis tickFormatter={v => mi(v)} width={90} /><Tooltip formatter={(v: any) => brl(v)} /><Legend />
-              {nomes.map((n, i) => <Line key={n} dataKey={semParen(n)} stroke={encerradas.has(semParen(n)) ? '#c4c8cf' : CORES[i % CORES.length]} strokeWidth={2} dot={false} connectNulls />)}</LineChart>
-          </ResponsiveContainer></Card></Col>
-        <Col xs={24} xl={10}><Card title="Despesas por grupo (mês)" extra={<span className="dica">sem a folha</span>}>
-          <List dataSource={d.despesas_grupo} renderItem={(g: any) => <List.Item extra={<b>{brl(g.v)}</b>}><div style={{ width: '100%' }}>{g.grupo}<Progress percent={Math.round(100 * g.v / maxG)} showInfo={false} strokeColor="#d71920" size="small" /></div></List.Item>} /></Card></Col>
-      </Row>
-      <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
-        <Col xs={24} xl={12}><Card title="Ações prioritárias em aberto" extra={<Link to="/e/planos_acao">Ver todas</Link>}>
-          <List dataSource={d.planos_alta} renderItem={(p: any) => <List.Item extra={<Tag color={corTag(p.status)}>{p.status}</Tag>}>{p.titulo}</List.Item>} /></Card></Col>
-        <Col xs={24} xl={12}><Card title="O que ainda falta levantar">
-          <List>
-            <List.Item extra={<Link to="/dividas"><b className="neg">{d.pendencias.passivos}</b></Link>}>Dívidas sem valor ou a verificar</List.Item>
-            <List.Item extra={<Link to="/e/ativos"><b className="neg">{d.pendencias.ativos}</b></Link>}>Ativos a levantar (bancos, recebíveis, consórcios, estoque)</List.Item>
-            <List.Item extra={<Link to="/e/anotacoes"><b className="neg">{d.pendencias.infos}</b></Link>}>Informações a confirmar</List.Item>
-          </List></Card></Col>
+        <Col xs={24} lg={12}>
+          <Card title="Maiores dívidas" style={{ height: '100%' }} extra={<Link to="/e/passivos">Todas</Link>}>
+            <List dataSource={d.maiores} renderItem={(x: any) => {
+              const g = DIVIDAS.find(g => g.chave === x.grandeza);
+              return <List.Item extra={<b>{brl(x.valor)}</b>}><span><Tag color={g?.cor}>{x.grandeza}</Tag>{x.credor || x.descricao} <span className="dica">{x.categoria}</span></span></List.Item>;
+            }} />
+          </Card>
+        </Col>
+        <Col xs={24} lg={12}>
+          <Card title="Ações prioritárias em aberto" style={{ height: '100%' }} extra={<Link to="/e/planos_acao">Ver todas</Link>}>
+            <List dataSource={d.planos_alta} renderItem={(p: any) => <List.Item extra={<Tag color={corTag(p.status)}>{p.status}</Tag>}>{p.titulo}</List.Item>} />
+          </Card>
+        </Col>
       </Row>
     </div>
   );
 }
-
-const mil = (v: number) => (v / 1000).toLocaleString('pt-BR', { maximumFractionDigits: 0 }) + 'k';

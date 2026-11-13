@@ -61,9 +61,13 @@ export default function EntityForm({ ent, entity, id, preset = {}, open, onClose
     try { await del(`/e/${ent}/${id}`); qc.invalidateQueries(); onSaved?.(); onClose(); } catch (e: any) { setErro(e.message); }
   };
 
+  // opções que dependem de outro campo (ex.: o Tipo da dívida depende da Grandeza)
+  const dep = entity?.fields.find(f => f.dependeDe)?.dependeDe;
+  const valorDep = Form.useWatch(dep || '__nada__', form);
+  const opcoes = (f: Field) => (f.dependeDe && f.opcoesPor && valorDep && f.opcoesPor[valorDep]) ? f.opcoesPor[valorDep] : f.options!;
   const input = (f: Field) => {
     switch (f.type) {
-      case 'select': return <Select allowClear showSearch options={f.options!.map(o => ({ value: o, label: o }))} />;
+      case 'select': return <Select allowClear showSearch options={opcoes(f).map(o => ({ value: o, label: o }))} />;
       case 'ref': return <Select allowClear showSearch optionFilterProp="label" options={(f.ref === 'unidades' ? refs.unidades : refs.fornecedores).map((o: any) => ({ value: o.id, label: o.nome || o.codigo }))} />;
       case 'longtext': return <Input.TextArea autoSize={{ minRows: 3, maxRows: 10 }} />;
       case 'bool': return <Select allowClear options={[{ value: 1, label: 'Sim' }, { value: 0, label: 'Não' }]} />;

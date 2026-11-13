@@ -3,6 +3,21 @@
 
 const SITUACAO_VER = ['A verificar', 'Confirmado'];
 
+// As cinco grandezas do portal: custo operacional (mensal) + quatro tipos de dívida.
+const GRANDEZAS_DIVIDA = ['Pessoas', 'Fornecedores', 'Imóvel', 'Governo', 'Outros'];
+const TIPOS_DIVIDA = {
+  Pessoas: ['Salários atrasados', 'Rescisões', 'Acordos trabalhistas / processos', 'FGTS', 'INSS', 'Outros com pessoas'],
+  Fornecedores: ['Mercadoria - fábrica', 'Mercadoria - representante', 'Fornecedores'],
+  'Imóvel': ['Aluguel atrasado', 'Acordo de imóvel', 'IPTU / condomínio'],
+  Governo: ['Impostos', 'Multas', 'Dívida fiscal / parcelamento'],
+  Outros: ['Bancos / empréstimos', 'Consórcios', 'Outros'],
+};
+// nomes antigos de categoria -> tipo novo
+const TIPO_ANTIGO = {
+  'Trabalhista - salários atrasados': 'Salários atrasados', 'Trabalhista - rescisões': 'Rescisões',
+  'Trabalhista - acordos/processos': 'Acordos trabalhistas / processos', 'Aluguéis': 'Aluguel atrasado',
+  'Bancos/Empréstimos': 'Bancos / empréstimos',
+};
 const entities = {
   unidades: {
     label: 'Lojas e setores', singular: 'Unidade', display: 'nome', order: 'tipo DESC, nome',
@@ -146,9 +161,10 @@ const entities = {
     ],
   },
   passivos: {
-    label: 'Passivos e dívidas', singular: 'Passivo', display: 'descricao', order: 'categoria, valor_atual DESC',
+    label: 'Dívidas', singular: 'Dívida', display: 'descricao', order: "FIELD(grandeza,'Pessoas','Fornecedores','Imóvel','Governo','Outros'), categoria, valor_atual DESC",
     fields: [
-      { name: 'categoria', label: 'Categoria', type: 'select', options: ['Trabalhista - salários atrasados', 'Trabalhista - rescisões', 'Trabalhista - acordos/processos', 'FGTS', 'INSS', 'Fornecedores', 'Aluguéis', 'Impostos', 'Bancos/Empréstimos', 'Consórcios', 'Outros'], list: true, required: true },
+      { name: 'grandeza', label: 'Grandeza', type: 'select', options: GRANDEZAS_DIVIDA, list: true, required: true, help: 'Pessoas, Fornecedores, Imóvel ou Governo. Aluguel do mês não entra aqui: é custo operacional (Despesas).' },
+      { name: 'categoria', label: 'Tipo', type: 'select', options: Object.values(TIPOS_DIVIDA).flat(), dependeDe: 'grandeza', opcoesPor: TIPOS_DIVIDA, list: true, required: true },
       { name: 'credor', label: 'Credor', type: 'text', list: true },
       { name: 'fornecedor_id', label: 'Fornecedor (se houver)', type: 'ref', ref: 'fornecedores' },
       { name: 'unidade_id', label: 'Loja (se houver)', type: 'ref', ref: 'unidades' },
@@ -245,4 +261,13 @@ async function migrate(pool) {
       if (!have.has(name + '.' + f.name)) await pool.query(`ALTER TABLE \`${name}\` ADD COLUMN \`${f.name}\` ${SQLTYPE[f.type]} NULL`);
 }
 
-module.exports = { entities, migrate };
+// Reclassifica dívidas antigas nas grandezas (roda a cada início; só mexe no que está sem grandeza ou com nome antigo).
+async function reclassifica(pool) {
+  for (const [a, n] of Object.entries(TIPO_ANTIGO)) await pool.query('UPDATE passivos SET categoria = ? WHERE categoria = ?', [n, a]);
+  for (const [g, tipos] of Object.entries(TIPOS_DIVIDA)) {
+    await pool.query(`UPDATE passivos SET grandeza = ? WHERE (grandeza IS NULL OR grandeza = '') AND categoria IN (${tipos.map(() => '?').join(',')})`, [g, ...tipos]);
+  }
+  await pool.query("UPDATE passivos SET grandeza = 'Outros' WHERE grandeza IS NULL OR grandeza = ''");
+}
+
+module.exports = { entities, migrate, reclassifica, GRANDEZAS_DIVIDA, TIPOS_DIVIDA };

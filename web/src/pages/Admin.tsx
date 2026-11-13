@@ -36,10 +36,13 @@ export function Entidade() {
   return <EntityTable key={ent} ent={ent} titulo={e.label} descricao={DESC[ent]} />;
 }
 
+// Vendas saíram do portal por enquanto (pedido do Guilherme em 13/11). O back-end continua aceitando.
+const OCULTAS = ['vendas', 'potencial'];
+
 export function Importar() {
   const [sp] = useSearchParams();
   const meta = useMeta(); const user = useAuth(s => s.user); const qc = useQueryClient();
-  const [ent, setEnt] = useState(sp.get('tabela') || '__vendas');
+  const [ent, setEnt] = useState(sp.get('tabela') || 'despesas');
   const [wb, setWb] = useState<XLSX.WorkBook | null>(null); const [arq, setArq] = useState('');
   const [aba, setAba] = useState(''); const [cab, setCab] = useState(1);
   const [mapa, setMapa] = useState<Record<string, number | undefined>>({});
@@ -107,7 +110,7 @@ export function Importar() {
       <div className="cabeca"><div><h1>Importar planilha</h1><p>Suba um Excel (.xlsx/.xls) ou CSV, escolha o destino e diga qual coluna é qual. Serve para atualizar despesas, folha, dívidas etc. e para receber os exports do Alterdata (Quadro de Venda Diária, BI Documentos) enquanto o acesso ao banco não sai.</p></div></div>
       <Card>
         <Form layout="vertical"><div className="duas">
-          <Form.Item label="Destino"><Select value={ent} onChange={v => { setEnt(v); setMapa({}); }} showSearch optionFilterProp="label" options={[{ value: '__vendas', label: 'Vendas do Alterdata (por loja e data)' }, ...ents.map(([k, e]) => ({ value: k, label: e.label }))]} /></Form.Item>
+          <Form.Item label="Destino"><Select value={ent} onChange={v => { setEnt(v); setMapa({}); }} showSearch optionFilterProp="label" options={ents.filter(([k]) => !OCULTAS.includes(k)).map(([k, e]) => ({ value: k, label: e.label }))} /></Form.Item>
           <Form.Item label="Arquivo"><Upload.Dragger accept=".xlsx,.xls,.csv" maxCount={1} beforeUpload={ler} showUploadList={false}><p className="ant-upload-drag-icon"><InboxOutlined /></p><p>{arq || 'Clique ou arraste a planilha'}</p></Upload.Dragger></Form.Item>
           {wb && <Form.Item label="Aba"><Select value={aba} onChange={v => { setAba(v); setMapa({}); }} options={wb.SheetNames.map(n => ({ value: n, label: n }))} /></Form.Item>}
           {wb && <Form.Item label="Linha do cabeçalho"><InputNumber min={1} value={cab} onChange={v => { setCab(v || 1); setMapa({}); }} /></Form.Item>}

@@ -11,8 +11,8 @@ import { carregaEstado, useAuth } from '@/lib/store';
 import AppLayout from '@/components/AppLayout';
 import { Login, Esqueci, Redefinir, Configurar } from '@/pages/Auth';
 import Painel from '@/pages/Painel';
-import { Lojas, Loja } from '@/pages/Lojas';
-import { Dividas, Potencial, Previsao } from '@/pages/Analises';
+import { Operacional, Divida } from '@/pages/Grandezas';
+import { Previsao } from '@/pages/Analises';
 import { Entidade, Importar, Historico, Usuarios, Conta } from '@/pages/Admin';
 
 dayjs.locale('pt-br');
@@ -46,10 +46,11 @@ function Raiz() {
       <Route path="/configurar" element={<Configurar />} />
       <Route element={<Protegido><AppLayout /></Protegido>}>
         <Route path="/painel" element={<Painel />} />
-        <Route path="/lojas" element={<Lojas />} />
-        <Route path="/loja/:id" element={<Loja />} />
-        <Route path="/dividas" element={<Dividas />} />
-        <Route path="/potencial" element={<Potencial />} />
+        <Route path="/operacional" element={<Operacional />} />
+        <Route path="/pessoas" element={<Divida key="p" chave="Pessoas" />} />
+        <Route path="/fornecedores" element={<Divida key="f" chave="Fornecedores" />} />
+        <Route path="/imovel" element={<Divida key="i" chave="Imóvel" />} />
+        <Route path="/governo" element={<Divida key="g" chave="Governo" />} />
         <Route path="/previsao" element={<Previsao />} />
         <Route path="/importar" element={<Importar />} />
         <Route path="/historico" element={<Historico />} />
