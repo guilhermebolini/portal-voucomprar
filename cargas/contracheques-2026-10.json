@@ -1,0 +1,143 @@
+{
+ "fonte": "ContraCheque.pdf (Drive, dp.voucomprar), competência out/2026, enviado por Guilherme em 13/11/2026",
+ "unidade": "R3",
+ "itens": [
+  {
+   "colaborador": {
+    "matricula": "C01S000076",
+    "nome": "EDILEIDE RAIMUNDO DA SILVA",
+    "cargo": "Fiscal de Caixa",
+    "cbo": "421125",
+    "admissao": "2011-08-09",
+    "empregador": "AISMA Comércio de Utilidades para o Lar LTDA",
+    "cnpj_empregador": "08.064.809/0003-50",
+    "jornada_horas": 220,
+    "salario": 1838.85
+   },
+   "contracheque": {
+    "competencia": "2026-10",
+    "cargo": "Fiscal de Caixa",
+    "salario_base": 1838.85,
+    "gratificacao": 550.0,
+    "horas_extras": 0,
+    "quebra_caixa": 0,
+    "total_proventos": 2388.85,
+    "inss": 190.67,
+    "vale_transporte": 110.33,
+    "contribuicao_negocial": 18.39,
+    "emprestimo_consignado": 0,
+    "outros_descontos": 0,
+    "total_descontos": 319.39,
+    "liquido": 2069.46,
+    "base_inss": 2388.85,
+    "base_fgts": 2388.85,
+    "fgts": 191.11,
+    "custo_empresa": 2579.96,
+    "rubricas": "Provento: SALARIO BASE (220,0 hora(s)) = R$ 1838,85\nProvento: GRATIFICAÇÃO = R$ 550,00\nDesconto: VALE TRANSPORTE (6,0 %) = R$ 110,33\nDesconto: INSS (7,98 %) = R$ 190,67\nDesconto: CONTRIBUIÇÃO NEGOCIAL (1,0 %) = R$ 18,39"
+   }
+  },
+  {
+   "colaborador": {
+    "matricula": "C01S000079",
+    "nome": "LAIANE OLIVEIRA COSTA",
+    "cargo": "Subgerente de Loja",
+    "cbo": "141415",
+    "admissao": "2018-10-04",
+    "empregador": "AISMA Comércio de Utilidades para o Lar LTDA",
+    "cnpj_empregador": "08.064.809/0003-50",
+    "jornada_horas": 220,
+    "salario": 1927.83
+   },
+   "contracheque": {
+    "competencia": "2026-10",
+    "cargo": "Subgerente de Loja",
+    "salario_base": 1927.83,
+    "gratificacao": 100.0,
+    "horas_extras": 107.82,
+    "quebra_caixa": 0,
+    "total_proventos": 2135.65,
+    "inss": 167.88,
+    "vale_transporte": 0,
+    "contribuicao_negocial": 19.28,
+    "emprestimo_consignado": 0,
+    "outros_descontos": 23.9,
+    "total_descontos": 211.06,
+    "liquido": 1924.59,
+    "base_inss": 2135.65,
+    "base_fgts": 2135.65,
+    "fgts": 170.85,
+    "custo_empresa": 2306.5,
+    "rubricas": "Provento: SALARIO BASE (220,0 hora(s)) = R$ 1927,83\nProvento: GRATIFICAÇÃO = R$ 100,00\nProvento: HORA EXTRA 50% (6,88 hora(s)) = R$ 90,43\nProvento: DSR (5,0 dias(s)) = R$ 17,39\nDesconto: INSS (7,86 %) = R$ 167,88\nDesconto: CONTRIBUIÇÃO NEGOCIAL (1,0 %) = R$ 19,28\nDesconto: ASS. ODONTOLOGICA (AMIL) = R$ 23,90"
+   }
+  },
+  {
+   "colaborador": {
+    "matricula": "00997000010",
+    "nome": "MIZAEL RODRIGUES DE ARAUJO",
+    "cargo": "Auxiliar de Loja",
+    "cbo": "521140",
+    "admissao": "2024-06-24",
+    "empregador": "AISMA Comércio de Utilidades para o Lar LTDA",
+    "cnpj_empregador": "08.064.809/0003-50",
+    "jornada_horas": 220,
+    "salario": 1825.0
+   },
+   "contracheque": {
+    "competencia": "2026-10",
+    "cargo": "Auxiliar de Loja",
+    "salario_base": 1825.0,
+    "gratificacao": 50.0,
+    "horas_extras": 246.28,
+    "quebra_caixa": 77.0,
+    "total_proventos": 2198.28,
+    "inss": 173.52,
+    "vale_transporte": 0,
+    "contribuicao_negocial": 0,
+    "emprestimo_consignado": 485.56,
+    "outros_descontos": 0,
+    "total_descontos": 659.08,
+    "liquido": 1539.2,
+    "base_inss": 2198.28,
+    "base_fgts": 2198.28,
+    "fgts": 175.86,
+    "custo_empresa": 2374.14,
+    "rubricas": "Provento: SALARIO BASE (220,0 hora(s)) = R$ 1825,00\nProvento: GRATIFICAÇÃO = R$ 50,00\nProvento: HORA EXTRA 50% (16,6 hora(s)) = R$ 206,56\nProvento: DSR (5,0 dias(s)) = R$ 39,72\nProvento: QUEBRA DE CAIXA VALOR = R$ 77,00\nDesconto: INSS (7,89 %) = R$ 173,52\nDesconto: EMPRESTIMO CONSIGNADO FGTS C\\R 01 = R$ 244,27\nDesconto: EMPRESTIMO CONSIGNADO FGTS C\\R 02 = R$ 241,29"
+   }
+  },
+  {
+   "colaborador": {
+    "matricula": "14030",
+    "nome": "REJANE MARIA DE SOUZA",
+    "cargo": "Auxiliar de Loja",
+    "cbo": "521140",
+    "admissao": "2023-02-15",
+    "empregador": "AISMA Comércio de Utilidades para o Lar LTDA",
+    "cnpj_empregador": "08.064.809/0003-50",
+    "jornada_horas": 220,
+    "salario": 1825.0
+   },
+   "contracheque": {
+    "competencia": "2026-10",
+    "cargo": "Auxiliar de Loja",
+    "salario_base": 1825.0,
+    "gratificacao": 123.0,
+    "horas_extras": 164.68,
+    "quebra_caixa": 0,
+    "total_proventos": 2112.68,
+    "inss": 163.5,
+    "vale_transporte": 109.5,
+    "contribuicao_negocial": 18.25,
+    "emprestimo_consignado": 0,
+    "outros_descontos": 25.72,
+    "total_descontos": 316.97,
+    "liquido": 1795.71,
+    "base_inss": 2086.96,
+    "base_fgts": 2086.96,
+    "fgts": 166.96,
+    "custo_empresa": 2279.64,
+    "rubricas": "Provento: SALARIO BASE (220,0 hora(s)) = R$ 1825,00\nProvento: GRATIFICAÇÃO = R$ 123,00\nProvento: HORA EXTRA 50% (11,1 hora(s)) = R$ 138,12\nProvento: DSR (5,0 dias(s)) = R$ 26,56\nDesconto: ATRASO INJUSTIFICADO (3,1 hora(s)) = R$ 25,72\nDesconto: VALE TRANSPORTE (6,0 %) = R$ 109,50\nDesconto: INSS (7,83 %) = R$ 163,50\nDesconto: CONTRIBUIÇÃO NEGOCIAL (1,0 %) = R$ 18,25"
+   }
+  }
+ ],
+ "obs": "CPF, PIS e CTPS ficam fora do repositório; preencher no portal (dados na planilha da pasta pessoas/)."
+}

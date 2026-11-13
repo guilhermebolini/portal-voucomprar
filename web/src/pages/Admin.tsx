@@ -15,6 +15,7 @@ const DESC: Record<string, string> = {
   folha: 'Lançamentos de folha por competência e loja (salários, FGTS, INSS, benefícios…).',
   imoveis: 'Contratos de aluguel, valor informado x evidência e atrasos por loja.',
   colaboradores: 'Pessoas, lotação e rateio entre lojas. Registre salários atrasados e rescisão estimada por pessoa.',
+  contracheques: 'Contracheques por pessoa e competência: proventos, descontos, líquido, FGTS e as verbas linha a linha.',
   quadro: 'Cargos e salários base por loja (planilha FINANCEIRO, out/26).',
   fornecedores: 'Representantes e fábricas. As dívidas ficam em Dívidas e passivos, ligadas ao fornecedor.',
   vendas: 'Venda líquida por loja: anual (histórico da BPO), mensal ou diária (importações do Alterdata).',

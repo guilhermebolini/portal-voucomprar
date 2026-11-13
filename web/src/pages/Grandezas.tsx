@@ -51,6 +51,7 @@ const EXTRAS: Record<string, { key: string; label: string; ent: string; titulo: 
   Pessoas: [
     { key: 'folha', label: 'Folha do mês', ent: 'folha', titulo: 'Folha de pagamento', descricao: 'Referência do custo mensal com pessoas. Soma no custo operacional, não nas dívidas.' },
     { key: 'colaboradores', label: 'Colaboradores', ent: 'colaboradores', titulo: 'Colaboradores', descricao: 'Quem trabalha em cada loja, cargo e salário.' },
+    { key: 'contracheques', label: 'Contracheques', ent: 'contracheques', titulo: 'Contracheques', descricao: 'Um registro por pessoa e mês: proventos, descontos, líquido e FGTS, tirados dos contracheques.' },
   ],
   Fornecedores: [{ key: 'cadastro', label: 'Cadastro de fornecedores', ent: 'fornecedores', titulo: 'Fornecedores', descricao: 'Fábricas e representantes, contato e marcas.' }],
   'Imóvel': [{ key: 'imoveis', label: 'Imóveis e contratos', ent: 'imoveis', titulo: 'Imóveis e aluguéis', descricao: 'Contrato, proprietário e valor do aluguel de cada ponto.' }],
