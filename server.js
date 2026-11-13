@@ -363,8 +363,10 @@ app.get('/api/importacoes', wrap(async (req, res) => {
 }));
 
 // ---------- Front-end ----------
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '5m', index: 'index.html' }));
-app.get(/^\/(?!api\/).*/, (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+const DIST = path.join(__dirname, 'web', 'dist');
+app.use('/assets', express.static(path.join(DIST, 'assets'), { maxAge: '30d', immutable: true }));
+app.use(express.static(DIST, { maxAge: 0, index: false }));
+app.get(/^\/(?!api\/).*/, (req, res) => { res.set('Cache-Control', 'no-cache'); res.sendFile(path.join(DIST, 'index.html')); });
 
 app.use((err, req, res, next) => {
   console.error(err);

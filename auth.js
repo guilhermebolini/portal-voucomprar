@@ -141,7 +141,7 @@ function routes(app, pool, wrap) {
     const [rows] = await pool.query('SELECT * FROM usuarios WHERE email = ? AND ativo = 1', [em]);
     if (rows.length) {
       const token = await criaToken(pool, rows[0].id, 'reset', 2);
-      const link = `${baseUrl(req)}/#/redefinir?token=${token}`;
+      const link = `${baseUrl(req)}/redefinir?token=${token}`;
       await enviaEmail(em, 'Redefinir sua senha · Portal Vou Comprar', emailHtml('Redefinir senha', 'Recebemos um pedido para redefinir a sua senha do Portal Vou Comprar. O link vale por 2 horas.', link, 'Criar nova senha')).catch(e => console.error('email', e.message));
     }
     res.json({ ok: true, mensagem: 'Se o e-mail estiver cadastrado, você vai receber um link para criar uma nova senha.' });
@@ -188,7 +188,7 @@ function routes(app, pool, wrap) {
     if (ex.length) return res.status(400).json({ erro: 'Esse e-mail já tem acesso.' });
     const [r] = await pool.query('INSERT INTO usuarios (email, nome, papel, senha_hash) VALUES (?,?,?,NULL)', [em, String(req.body.nome || '').slice(0, 120), papel]);
     const token = await criaToken(pool, r.insertId, 'convite', 72);
-    const link = `${baseUrl(req)}/#/redefinir?token=${token}&convite=1`;
+    const link = `${baseUrl(req)}/redefinir?token=${token}&convite=1`;
     const enviado = await enviaEmail(em, 'Convite · Portal Vou Comprar', emailHtml('Você foi convidado', `${req.user.nome || req.user.email} liberou seu acesso ao Portal Vou Comprar. Crie sua senha pelo botão abaixo (vale por 3 dias).`, link, 'Criar minha senha')).catch(() => false);
     res.json({ ok: true, enviado, link });
   }));
@@ -209,7 +209,7 @@ function routes(app, pool, wrap) {
     const [rows] = await pool.query('SELECT * FROM usuarios WHERE id = ?', [req.params.id]);
     if (!rows.length) return res.status(404).json({ erro: 'Não encontrado' });
     const token = await criaToken(pool, rows[0].id, 'reset', 72);
-    const link = `${baseUrl(req)}/#/redefinir?token=${token}`;
+    const link = `${baseUrl(req)}/redefinir?token=${token}`;
     const enviado = await enviaEmail(rows[0].email, 'Criar/redefinir senha · Portal Vou Comprar', emailHtml('Acesso ao Portal Vou Comprar', 'Use o botão abaixo para criar uma nova senha (vale por 3 dias).', link, 'Criar senha')).catch(() => false);
     res.json({ ok: true, enviado, link });
   }));

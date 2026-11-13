@@ -1,19 +1,35 @@
 {
   "name": "portal-voucomprar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Portal de avaliação da rede Vou Comprar",
+  "description": "Portal de avaliação da rede Vou Comprar (Express + MySQL + Vite/React)",
   "main": "server.js",
+  "engines": { "node": ">=20" },
   "scripts": {
-    "start": "node server.js",
-    "build": "echo \"sem build\""
-  },
-  "engines": {
-    "node": ">=18"
+    "dev": "vite --config web/vite.config.ts",
+    "build": "vite build --config web/vite.config.ts",
+    "typecheck": "tsc -p web --noEmit",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
     "mysql2": "^3.11.5",
-    "nodemailer": "^6.9.16"
+    "nodemailer": "^6.9.16",
+    "@ant-design/icons": "^6.1.0",
+    "@tanstack/react-query": "^5.90.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "antd": "^5.27.0",
+    "axios": "^1.12.0",
+    "dayjs": "^1.11.13",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.9.0",
+    "recharts": "^3.2.0",
+    "typescript": "~5.9.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "vite": "^7.1.0",
+    "xlsx": "0.18.5",
+    "zustand": "^5.0.8"
   }
 }

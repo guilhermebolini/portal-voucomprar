@@ -1,6 +1,6 @@
 # Portal Vou Comprar
 
-Portal de avaliação da rede Vou Comprar (voucomprar.bolinao.com.br). Node.js (Express) + MySQL, front-end em JS puro (`public/`).
+Portal de avaliação da rede Vou Comprar (voucomprar.bolinao.com.br). Node.js (Express) + MySQL, front-end em JS puro (`web/` (Vite + React + Ant Design)).
 
 - `schema.js`: tabelas e campos (geram banco, API e telas).
 - `seed.json`: carga inicial gerada das planilhas da pasta LOJAS VOU COMPRAR (só roda com banco vazio).
