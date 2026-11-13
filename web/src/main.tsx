@@ -22,9 +22,15 @@ function Protegido({ children, admin }: { children: React.ReactNode; admin?: boo
   const { user, carregado } = useAuth();
   const loc = useLocation();
   if (!carregado) return <div className="boot"><Spin /></div>;
-  if (!user) return <Navigate to="/login" replace state={{ de: loc.pathname }} />;
+  if (!user) return <Navigate to="/" replace state={{ de: loc.pathname }} />;
   if (admin && user.papel !== 'admin') return <Navigate to="/painel" replace />;
   return <>{children}</>;
+}
+
+// A primeira tela é sempre o login; quem já entrou vai direto para o painel.
+function SoDeslogado({ children }: { children: React.ReactNode }) {
+  const user = useAuth(s => s.user);
+  return user ? <Navigate to="/painel" replace /> : <>{children}</>;
 }
 
 function Raiz() {
@@ -33,7 +39,8 @@ function Raiz() {
   if (!carregado) return <div className="boot"><Spin /></div>;
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<SoDeslogado><Login /></SoDeslogado>} />
+      <Route path="/login" element={<SoDeslogado><Login /></SoDeslogado>} />
       <Route path="/esqueci" element={<Esqueci />} />
       <Route path="/redefinir" element={<Redefinir />} />
       <Route path="/configurar" element={<Configurar />} />
@@ -50,7 +57,7 @@ function Raiz() {
         <Route path="/conta" element={<Conta />} />
         <Route path="/e/:ent" element={<Entidade />} />
       </Route>
-      <Route path="*" element={<Navigate to="/painel" replace />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }

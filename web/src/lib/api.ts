@@ -8,7 +8,7 @@ api.interceptors.response.use(
     const status = err.response?.status;
     const msg = err.response?.data?.erro || err.message || 'Erro';
     if (status === 401 && !String(err.config?.url || '').startsWith('/auth')) {
-      if (!location.pathname.startsWith('/login')) location.href = '/login';
+      if (!['/', '/login'].includes(location.pathname)) location.href = '/';
     }
     return Promise.reject(new Error(msg));
   },

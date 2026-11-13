@@ -32,7 +32,7 @@ export default function AppLayout() {
   const sel = items.flatMap(g => g.children).map((c: any) => c.key).filter((k: string) => loc.pathname === k || loc.pathname.startsWith(k + '/')).sort((a: string, b: string) => b.length - a.length)[0]
     || (loc.pathname.startsWith('/loja/') ? '/lojas' : '');
 
-  const sair = async () => { await post('/auth/sair'); set({ user: null }); nav('/login'); };
+  const sair = async () => { await post('/auth/sair'); set({ user: null }); nav('/', { replace: true }); };
   const menu = (
     <div className="lateral">
       <Marca />

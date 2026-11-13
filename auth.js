@@ -147,6 +147,15 @@ function routes(app, pool, wrap) {
     res.json({ ok: true, mensagem: 'Se o e-mail estiver cadastrado, você vai receber um link para criar uma nova senha.' });
   }));
 
+  // confere o link antes de mostrar a tela (para avisar "link vencido" logo de cara)
+  app.get('/api/auth/link', wrap(async (req, res) => {
+    if (limitado('link:' + req.ip, 30)) return res.status(429).json({ erro: 'Muitas tentativas.' });
+    const hash = crypto.createHash('sha256').update(String(req.query.token || '')).digest('hex');
+    const [rows] = await pool.query('SELECT t.tipo, u.nome, u.email FROM senha_tokens t JOIN usuarios u ON u.id = t.usuario_id WHERE t.token_hash = ? AND t.usado_em IS NULL AND t.expira_em > UTC_TIMESTAMP() AND u.ativo = 1', [hash]);
+    if (!rows.length) return res.status(400).json({ erro: 'Este link já foi usado ou venceu. Peça um link novo.' });
+    res.json({ tipo: rows[0].tipo, nome: rows[0].nome, email: rows[0].email });
+  }));
+
   app.post('/api/auth/redefinir', wrap(async (req, res) => {
     const { token, senha } = req.body || {};
     if (limitado('redef:' + req.ip, 10)) return res.status(429).json({ erro: 'Muitas tentativas.' });
