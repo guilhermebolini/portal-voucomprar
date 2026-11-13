@@ -10,9 +10,9 @@ const seed = require('./seed');
 const PORT = process.env.PORT || 3000;
 
 function dbConfig() {
-  if (process.env.DATABASE_URL && !process.env.DB_HOST) return { uri: process.env.DATABASE_URL };
+  if (process.env.DATABASE_URL && !process.env.DB_USER) return { uri: process.env.DATABASE_URL.replace('@localhost', '@127.0.0.1') };
   return {
-    host: process.env.DB_HOST || '127.0.0.1',
+    host: (!process.env.DB_HOST || process.env.DB_HOST === 'localhost') ? '127.0.0.1' : process.env.DB_HOST,
     port: Number(process.env.DB_PORT || 3306),
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
